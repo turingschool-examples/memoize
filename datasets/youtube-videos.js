@@ -1,4 +1,4 @@
-const youLearn = {
+const youTubeVideos = {
   "HTML": [{
     "title": "HTML Crash Course For Absolute Beginners",
     "channel": "Traversy Media",
@@ -417,4 +417,4 @@ const youLearn = {
   }]
 }
 
-module.exports = youLearn;
+module.exports = { youTubeVideos };
