@@ -367,5 +367,5 @@ const codeWizCategories = {
   ]
 }
 module.exports = {
-  categories
+  codeWizCategories
 };
