@@ -17,6 +17,7 @@ const { prototypeData } = require('./datasets/levi-prototypes.js');
 const { questions, answers } = require('./datasets/kylie-stanley.js');
 const { codeWizCategories } = require('./datasets/codewiz-data.js');
 const { gitQuestions } = require('./datasets/gitGithubQuestions.js');
+const { usefulJavascript } = require('./datasets/kevin-ryan.js');
 
 const datasets = [ 
   { name: 'youTubeVideos', data: youTubeVideos },
@@ -30,7 +31,8 @@ const datasets = [
   { name: 'questions', data: questions },
   { name: 'answers', data: answers },
   { name: 'codeWizCategories', data: codeWizCategories },
-  { name: 'gitQuestions', data: gitQuestions }
+  { name: 'gitQuestions', data: gitQuestions },
+  { name: 'usefulJavascript', data: usefulJavascript }
 ];
 
 // EXPRESS CONFIGURATION
