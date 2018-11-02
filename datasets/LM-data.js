@@ -68,7 +68,7 @@ const flashStudyQuestions = [{
   "question": "CSS property used in casting shadows off block-level elements",
   "correctAnswer": "Box Shadow",
   "answerChoices": ["Text Shadow", "Box Shadow", "Offset Shadow"],
-  "save": false,,
+  "save": false,
   "id": 12
 }, {
   "question": "This CSS property defines visual effects (like blur and saturation) to an element",
