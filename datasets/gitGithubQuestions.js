@@ -1,4 +1,4 @@
-const questions = [
+const gitQuestions = [
 	{
 		"id": 0,
 		"question": "What is the git command that downloads your repository from GitHub to your computer?",
@@ -173,5 +173,5 @@ const questions = [
 ]
 
 module.exports = {
-  questions
+  gitQuestions
 };

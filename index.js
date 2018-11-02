@@ -16,6 +16,7 @@ const { flashStudyQuestions } = require('./datasets/LM-data.js');
 const { prototypeData } = require('./datasets/levi-prototypes.js');
 const { questions, answers } = require('./datasets/kylie-stanley.js');
 const { codeWizCategories } = require('./datasets/codewiz-data.js');
+const { gitQuestions } = require('./datasets/gitGithubQuestions.js');
 
 const datasets = [ 
   { name: 'youTubeVideos', data: youTubeVideos },
@@ -28,7 +29,8 @@ const datasets = [
   { name: 'prototypeData', data: prototypeData },
   { name: 'questions', data: questions },
   { name: 'answers', data: answers },
-  { name: 'codeWizCategories', data: codeWizCategories }
+  { name: 'codeWizCategories', data: codeWizCategories },
+  { name: 'gitQuestions', data: gitQuestions }
 ];
 
 // EXPRESS CONFIGURATION
