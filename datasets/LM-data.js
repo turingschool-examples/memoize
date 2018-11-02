@@ -1,4 +1,4 @@
-const flashStudy = [{
+const flashStudyQuestions = [{
   "question": "A data structure consisting of a collection of elements, each element is identified by an index",
   "correctAnswer": "array",
   "answersChoices": ["object", "array", "Linked-list"],
@@ -180,4 +180,4 @@ const flashStudy = [{
   "id": 30
 }]
 
-module.exports = { flashStudy }
+module.exports = { flashStudyQuestions }
