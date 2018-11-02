@@ -9,13 +9,15 @@ const cors = require('cors');
 // DATASETS
 const { youTubeVideos } = require('./datasets/youtube-videos.js');
 const { priceQuestions } = require('./datasets/cody-price.js');
+const { arrayPrototypes } = require('./datasets/array-prototypes.js');
 const { terminalCommands, gitCommands } = require('./datasets/touch-terminal.js');
 
 const datasets = [ 
   { name: 'youTubeVideos', data: youTubeVideos },
   { name: 'priceQuestions', data: priceQuestions },
   { name: 'terminalCommands', data: terminalCommands },
-  { name: 'gitCommands', data: gitCommands }
+  { name: 'gitCommands', data: gitCommands },
+  { name: 'arrayPrototypes', data: arrayPrototypes }
 ];
 
 // EXPRESS CONFIGURATION

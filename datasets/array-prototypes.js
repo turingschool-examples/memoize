@@ -177,4 +177,4 @@ const arrayPrototypes = [
 ];
 
 
-module.exports = arrayPrototypes;
+module.exports = { arrayPrototypes };
