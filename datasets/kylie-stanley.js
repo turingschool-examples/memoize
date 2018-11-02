@@ -193,7 +193,7 @@ const answers = [
     "category": "Array"
   },
   {
-    "answer": ."join()",
+    "answer": ".join()",
     "id": "8",
     "category": "Array"
   },

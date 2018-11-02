@@ -14,6 +14,7 @@ const { terminalCommands, gitCommands } = require('./datasets/touch-terminal.js'
 const { jQuery } = require('./datasets/jquery-data.js');
 const { flashStudyQuestions } = require('./datasets/LM-data.js');
 const { prototypeData } = require('./datasets/levi-prototypes.js');
+const { questions, answers } = require('./datasets/kylie-stanley.js');
 
 const datasets = [ 
   { name: 'youTubeVideos', data: youTubeVideos },
@@ -23,7 +24,9 @@ const datasets = [
   { name: 'arrayPrototypes', data: arrayPrototypes },
   { name: 'jQuery', data: jQuery },
   { name: 'flashStudyQuestions', data: flashStudyQuestions },
-  { name: 'prototypeData', data: prototypeData }
+  { name: 'prototypeData', data: prototypeData },
+  { name: 'questions', data: questions },
+  { name: 'answers', data: answers }
 ];
 
 // EXPRESS CONFIGURATION
