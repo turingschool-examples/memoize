@@ -174,7 +174,7 @@ const arrayPrototypes = [
       "returnValue":"A string representing the elements of the array.",
       "maxNumberOfParameters":2
    }
-]
+];
 
 
 module.exports = arrayPrototypes;
