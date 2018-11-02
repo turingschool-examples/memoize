@@ -2,7 +2,7 @@ const youLearn = {
   "HTML": [{
     "title": "HTML Crash Course For Absolute Beginners",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=RYkhGn1EvQs",
+    "url": "https://www.youtube.com/embed/UB1O30fR-EE",
     "level": "Beginner",
     "time": 60,
     "views": 736460,
@@ -10,7 +10,7 @@ const youLearn = {
   }, {
     "title": "Learn HTML in 12 Minutes",
     "channel": "Jake Wright",
-    "url": "https://www.youtube.com/watch?v=bWPMSSsVdPk",
+    "url": "https://www.youtube.com/embed/bWPMSSsVdPk",
     "level": "Beginner",
     "time": 12,
     "views": 2599952,
@@ -18,7 +18,7 @@ const youLearn = {
   }, {
     "title": "HTML Full Course - Build a Website Tutorial",
     "channel": "freeCodeCamp",
-    "url": "https://www.youtube.com/watch?v=bWPMSSsVdPk",
+    "url": "https://www.youtube.com/embed/pQN-pnXPaVg",
     "level": "Beginner",
     "time": 2.02,
     "views": 53466,
@@ -27,7 +27,7 @@ const youLearn = {
   "CSS": [{
     "title": "CSS Crash Course For Absolute Beginners",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=yfoY53QXEnI",
+    "url": "https://www.youtube.com/embed/yfoY53QXEnI",
     "level": "Beginner",
     "time": 85,
     "views": 556000,
@@ -35,7 +35,7 @@ const youLearn = {
   }, {
     "title": "Learn CSS in 12 Minutes",
     "channel": "Jake Wright",
-    "url": "https://www.youtube.com/watch?v=0afZj1G0BIE",
+    "url": "https://www.youtube.com/embed/0afZj1G0BIE",
     "level": "Beginner",
     "time": 12,
     "views": 1025880,
@@ -43,7 +43,7 @@ const youLearn = {
   }, {
     "title": "CSS Tutorial For Absolute Beginners! | Extreme Basics",
     "channel": "Extreme Basics",
-    "url": "https://www.youtube.com/watch?v=JzjakXUJ6Og",
+    "url": "https://www.youtube.com/embed/JzjakXUJ6Og",
     "level": "Beginner",
     "time": 18,
     "views": 1642,
@@ -51,7 +51,7 @@ const youLearn = {
   }, {
     "title": "Advanced CSS Tutorial - Tricky CSS Properties",
     "channel": "Fullstack Academy",
-    "url": "https://www.youtube.com/watch?v=1haoknb4m6k",
+    "url": "https://www.youtube.com/embed/1haoknb4m6k",
     "level": "Advanced",
     "time": 10,
     "views": 18622,
@@ -59,7 +59,7 @@ const youLearn = {
   }, {
     "title": "CSS3 Animation & Transitions Crash Course",
     "channel": "Traversy",
-    "url": "https://www.youtube.com/watch?v=zHUpx90NerM",
+    "url": "https://www.youtube.com/embed/zH",
     "level": "Advanced",
     "time": 36,
     "views": 65000,
@@ -67,7 +67,7 @@ const youLearn = {
   }, {
     "title": "Before and After pseudo elements explained - part one: how they work",
     "channel": "Kevin Powell",
-    "url": "https://www.youtube.com/watch?v=zGiirUiWslI",
+    "url": "https://www.youtube.com/embed/zG",
     "level": "Advanced",
     "time": 9,
     "views": 83000,
@@ -75,7 +75,7 @@ const youLearn = {
   }, {
     "title": "Before and After pseudo elements explained - part two: the content property",
     "channel": "Kevin Powell",
-    "url": "https://www.youtube.com/watch?v=xoRbkm8XgfQ",
+    "url": "https://www.youtube.com/embed/xoRbkm8XgfQ",
     "level": "Advanced",
     "time": 25,
     "views": 36000,
@@ -84,7 +84,7 @@ const youLearn = {
   "Flexbox": [{
     "title": "Flexbox CSS In 20 Minutes",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=JJSoEo8JSnc&t=385s",
+    "url": "https://www.youtube.com/embed/JJ",
     "level": "Intermediate",
     "time": 19,
     "views": 281000,
@@ -92,7 +92,7 @@ const youLearn = {
   }, {
     "title": "Flexbox Tutorial (CSS): Real Layout Examples",
     "channel": "LearnWebCode",
-    "url": "https://www.youtube.com/watch?v=k32voqQhODc",
+    "url": "https://www.youtube.com/embed/k3",
     "level": "Intermediate",
     "time": 28,
     "views": 317000,
@@ -100,7 +100,7 @@ const youLearn = {
   }, {
     "title": "CSS Flexbox Tutorial | Learn To Create Layouts Using CSS | Learn HTML And CSS | Flexbox Tutorial",
     "channel": "mmtuts",
-    "url": "https://www.youtube.com/watch?v=0e02dl66PYo",
+    "url": "https://www.youtube.com/embed/0e",
     "level": "Intermediate",
     "time": 20,
     "views": 22000,
@@ -108,24 +108,17 @@ const youLearn = {
   }, {
     "title": "CSS Flexbox Course",
     "channel": "freeCodeCamp",
-    "url": "https://www.youtube.com/watch?v=-Wlt8NRtOpo",
+    "url": "https://www.youtube.com/embed/-Wlt8NRtOpo",
     "level": "Intermediate",
     "time": 48,
     "views": 23000,
     "likes": 640
-  }, {
-    "title": "CSS Flexbox Course",
-    "channel": "freeCodeCamp",
-    "url": "https://www.youtube.com/watch?v=-Wlt8NRtOpo",
-    "level": "Intermediate",
-    "time": 48,
-    "views": 23000,
-    "likes": 640
-  }],
+  }, 
+],
   "Grid": [{
     "title": "CSS Grid Layout Crash Course",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=jV8B24rSN5o&t=1212s",
+    "url": "https://www.youtube.com/embed/jV8B24rSN5o",
     "level": "Intermediate",
     "time": 27,
     "views": 545000,
@@ -133,7 +126,7 @@ const youLearn = {
   }, {
     "title": "CSS Grid Course",
     "channel": "freeCodeCamp",
-    "url": "https://www.youtube.com/watch?v=t6CBKf8K_Ac&t=428s",
+    "url": "https://www.youtube.com/embed/t6CBKf8K_Ac",
     "level": "Intermediate",
     "time": 62,
     "views": 55000,
@@ -141,7 +134,7 @@ const youLearn = {
   }, {
     "title": "How to Create Website Layouts Using CSS Grid | Learn HTML and CSS | HTML Tutorial",
     "channel": "mmtuts",
-    "url": "https://www.youtube.com/watch?v=HgwCeNVPlo0",
+    "url": "https://www.youtube.com/embed/HgwCeNVPlo0",
     "level": "Intermediate",
     "time": 27,
     "views": 392000,
@@ -150,7 +143,7 @@ const youLearn = {
   "Javascript": [{
     "title": "JavaScript Tutorial for Beginners | Mosh",
     "channel": "Programming with Mosh",
-    "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+    "url": "https://www.youtube.com/embed/W6NZfCO5SIk",
     "level": "Beginner",
     "time": 27,
     "views": 349000,
@@ -158,7 +151,7 @@ const youLearn = {
   }, {
     "title": "JavaScript Fundamentals For Beginners",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+    "url": "https://www.youtube.com/embed/vEROU2XtPR8",
     "level": "Beginner",
     "time": 68,
     "views": 1000000,
@@ -166,7 +159,7 @@ const youLearn = {
   }, {
     "title": "JavaScript Tutorial",
     "channel": "Programming with Mosh",
-    "url": "https://www.youtube.com/watch?v=fju9ii8YsGs",
+    "url": "https://www.youtube.com/embed/fju9ii8YsGs",
     "level": "Beginner",
     "time": 97,
     "views": 1152000,
@@ -175,7 +168,7 @@ const youLearn = {
   "ES6": [{
     "title": "ES6 JavaScript Tutorial for Beginners - Getting Started",
     "channel": "Academind",
-    "url": "https://www.youtube.com/watch?v=IEf1KAcK6A8&t=1690s",
+    "url": "https://www.youtube.com/embed/IEf1KAcK6A8",
     "level": "Beginner",
     "time": 73,
     "views": 140000,
@@ -183,7 +176,7 @@ const youLearn = {
   }, {
     "title": "Javascript ES6 Cheatsheet - the best of JS ES6",
     "channel": "LearnCode.academy",
-    "url": "https://www.youtube.com/watch?v=AfWYO8t7ed4",
+    "url": "https://www.youtube.com/embed/AfWYO8t7ed4",
     "level": "Advanced",
     "time": 13,
     "views": 185000,
@@ -192,7 +185,7 @@ const youLearn = {
   "git": [{
     "title": "Git & GitHub Crash Course For Beginners",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+    "url": "https://www.youtube.com/embed/SWYqp7iY_Tc",
     "level": "Beginner",
     "time": 32,
     "views": 547399,
@@ -200,7 +193,7 @@ const youLearn = {
   }, {
     "title": "Learn Git in 20 Minutes",
     "channel": "Code Insights",
-    "url": "https://www.youtube.com/watch?v=Y9XZQO1n_7c",
+    "url": "https://www.youtube.com/embed/Y9XZQO1n_7c",
     "level": "Beginner",
     "time": 18,
     "views": 990000,
@@ -208,7 +201,7 @@ const youLearn = {
   }, {
     "title": "Advanced Git Tutorial",
     "channel": "Dmitri Snytkine",
-    "url": "https://www.youtube.com/watch?v=0SJCYPsef54",
+    "url": "https://www.youtube.com/embed/0SJCYPsef54",
     "level": "Advanced",
     "time": 59,
     "views": 52000,
@@ -225,7 +218,7 @@ const youLearn = {
   }, {
     "title": "jQuery Crash Course [1] - Intro & Selectors",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=3nrLc_JOF7k",
+    "url": "https://www.youtube.com/embed/3nrLc_JOF7k",
     "level": "Beginner",
     "time": 21,
     "views": 97000,
@@ -233,7 +226,7 @@ const youLearn = {
   }, {
     "title": "jQuery Tutorial For Beginners | Developing User Interface (UI) Using jQuery | Edureka",
     "channel": "Edureka",
-    "url": "https://www.youtube.com/watch?v=2OMzGhlIZpg",
+    "url": "https://www.youtube.com/embed/2OMzGhlIZpg",
     "level": "Beginner",
     "time": 75,
     "views": 2675,
@@ -241,7 +234,7 @@ const youLearn = {
   }, {
     "title": "Jquery From Beginner To Expert Programming Tutorial - The Complete Tutorial to Learn Jquery",
     "channel": "Point 4 Code",
-    "url": "https://www.youtube.com/watch?v=M2hactsV0eQ",
+    "url": "https://www.youtube.com/embed/M2hactsV0eQ",
     "level": "Advanced",
     "time": 285,
     "views": 34000,
@@ -250,7 +243,7 @@ const youLearn = {
   "This": [{
     "title": "THIS keyword - Beau teaches JavaScript",
     "channel": "freeCodeCamp",
-    "url": "https://www.youtube.com/watch?v=eOI9GzMfd24",
+    "url": "https://www.youtube.com/embed/eOI9GzMfd24",
     "level": "Intermediate",
     "time": 9,
     "views": 19000,
@@ -259,7 +252,7 @@ const youLearn = {
   "OOP": [{
     "title": "JavaScript OOP Crash Course (ES5 & ES6)",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=vDJpGenyHaA&t=670s",
+    "url": "https://www.youtube.com/embed/vDJpGenyHaA",
     "level": "Intermediate",
     "time": 40,
     "views": 59000,
@@ -267,7 +260,7 @@ const youLearn = {
   }, {
     "title": "Object-oriented Programming in JavaScript: Made Super Simple | Mosh",
     "channel": "Programming with Mosh",
-    "url": "https://www.youtube.com/watch?v=PFmuCDHHpwk",
+    "url": "https://www.youtube.com/embed/PFmuCDHHpwk",
     "level": "Intermediate",
     "time": 62,
     "views": 140000,
@@ -275,7 +268,7 @@ const youLearn = {
   }, {
     "title": "Object Oriented JavaScript",
     "channel": "Derek Banas",
-    "url": "https://www.youtube.com/watch?v=O8wwnhdkPE4",
+    "url": "https://www.youtube.com/embed/O8wwnhdkPE4",
     "level": "Intermediate",
     "time": 60,
     "views": 340000,
@@ -284,7 +277,7 @@ const youLearn = {
   "React": [{
     "title": "Learn React - React Crash Course 2018 - React Tutorial with Examples | Mosh",
     "channel": "Programming with Mosh",
-    "url": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+    "url": "https://www.youtube.com/embed/Ke90Tje7VS0",
     "level": "Advanced",
     "time": 145,
     "views": 325000,
@@ -292,7 +285,7 @@ const youLearn = {
   }, {
     "title": "React JS Crash Course",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=A71aqufiNtQ&t=1208s",
+    "url": "https://www.youtube.com/embed/A71aqufiNtQ",
     "level": "Advanced",
     "time": 60,
     "views": 688000,
@@ -300,7 +293,7 @@ const youLearn = {
   }, {
     "title": "ReactJS Tutorial for Beginners - Getting Started with React",
     "channel": "Academind",
-    "url": "https://www.youtube.com/watch?v=pgAvVxowaYU",
+    "url": "https://www.youtube.com/embed/pgAvVxowaYU",
     "level": "Advanced",
     "time": 138,
     "views": 124000,
@@ -309,7 +302,7 @@ const youLearn = {
   "SASS": [{
     "title": "Learn Sass in this Free Crash Course - Give your CSS Superpowers!",
     "channel": "DesignCourse",
-    "url": "https://www.youtube.com/watch?v=roywYSEPSvc",
+    "url": "https://www.youtube.com/embed/roywYSEPSvc",
     "level": "Intermediate",
     "time": 46,
     "views": 45000,
@@ -317,7 +310,7 @@ const youLearn = {
   }, {
     "title": "SASS Tutorial",
     "channel": "Derek Banas",
-    "url": "https://www.youtube.com/watch?v=wz3kElLbEHE",
+    "url": "https://www.youtube.com/embed/wz3kElLbEHE",
     "level": "Intermediate",
     "time": 45,
     "views": 302000,
@@ -325,7 +318,7 @@ const youLearn = {
   }, {
     "title": "How to learn Sass From Beginner to Advanced",
     "channel": "Help People",
-    "url": "https://www.youtube.com/watch?v=P1G4_zxOxtk",
+    "url": "https://www.youtube.com/embed/P1G4_zxOxtk",
     "level": "Intermediate",
     "time": 117,
     "views": 32000,
@@ -334,7 +327,7 @@ const youLearn = {
   "Angular": [{
     "title": "Learn Angular 6 in 60 Minutes - Free Beginners Crash Course",
     "channel": "DesignCourse",
-    "url": "https://www.youtube.com/watch?v=z4JUm0Bq9AM",
+    "url": "https://www.youtube.com/embed/z4JUm0Bq9AM",
     "level": "Intermediate",
     "time": 62,
     "views": 274000,
@@ -342,7 +335,7 @@ const youLearn = {
   }, {
     "title": "Angular In 60 Minutes",
     "channel": "Traversy Media",
-    "url": "https://www.youtube.com/watch?v=KhzGSHNhnbI",
+    "url": "https://www.youtube.com/embed/KhzGSHNhnbI",
     "level": "Intermediate",
     "time": 61,
     "views": 825000,
@@ -350,7 +343,7 @@ const youLearn = {
   }, {
     "title": "Angular Tutorial for Beginners: Learn Angular from Scratch | Mosh",
     "channel": "Programming with Mosh",
-    "url": "https://www.youtube.com/watch?v=k5E2AVpwsko",
+    "url": "https://www.youtube.com/embed/k5E2AVpwsko",
     "level": "Intermediate",
     "time": 122,
     "views": 555000,
@@ -359,7 +352,7 @@ const youLearn = {
   "Swift": [{
     "title": "Swift Tutorial",
     "channel": "Derek Banas",
-    "url": "https://www.youtube.com/watch?v=6Zf79Ns8_oY",
+    "url": "https://www.youtube.com/embed/6Zf79Ns8_oY",
     "level": "Beginner",
     "time": 69,
     "views": 279000,
@@ -367,7 +360,7 @@ const youLearn = {
   }, {
     "title": "Lecture 1: Introduction to iOS 11, Xcode 9 and Swift 4",
     "channel": "Michel Deiman",
-    "url": "https://www.youtube.com/watch?v=71pyOB4TPRE",
+    "url": "https://www.youtube.com/embed/71pyOB4TPRE",
     "level": "Beginner",
     "time": 81,
     "views": 162000,
@@ -376,7 +369,7 @@ const youLearn = {
   "Debugging": [{
     "title": "Debugging JavaScript - Beginner to Advanced in One Video",
     "channel": "Chris Morrow",
-    "url": "https://www.youtube.com/watch?v=-q1z8BPFItw",
+    "url": "https://www.youtube.com/embed/-q1z8BPFItw",
     "level": "Intermediate",
     "time": 61,
     "views": 145000,
@@ -384,7 +377,7 @@ const youLearn = {
   }, {
     "title": "Debugging JavaScript - Chrome DevTools 101",
     "channel": "Google Chrome Developers",
-    "url": "https://www.youtube.com/watch?v=H0XScE08hy8",
+    "url": "https://www.youtube.com/embed/H0XScE08hy8",
     "level": "Beginner",
     "time": 7,
     "views": 93000,
@@ -393,7 +386,7 @@ const youLearn = {
   "Misc": [{
     "title": "What Programming Language Should I Learn First?",
     "channel": "CS Dojo",
-    "url": "https://www.youtube.com/watch?v=poJfwre2PIs",
+    "url": "https://www.youtube.com/embed/poJfwre2PIs",
     "level": "Beginner",
     "time": 6,
     "views": 435000,
@@ -401,7 +394,7 @@ const youLearn = {
   }, {
     "title": "The Rise of the Machines – Why Automation is Different this Time",
     "channel": "Kurzgesagt – In a Nutshell",
-    "url": "https://www.youtube.com/watch?v=WSKi8HfcxEk&t=1s",
+    "url": "https://www.youtube.com/embed/WSKi8HfcxEk",
     "level": "Beginner",
     "time": 12,
     "views": 5000000,
@@ -409,7 +402,7 @@ const youLearn = {
   }, {
     "title": "The Secret to Getting paid 200k a year",
     "channel": "Ed Taylor",
-    "url": "https://www.youtube.com/watch?v=xfr64zoBTAQ",
+    "url": "https://www.youtube.com/embed/xfr64zoBTAQ",
     "level": "Beginner",
     "time": 2,
     "views": 2400000,
