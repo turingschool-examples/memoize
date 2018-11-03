@@ -299,4 +299,6 @@
       "correctAnswer": "true"
     }
   ]
-}
+};
+
+module.exports = { jsfunQuestions };
