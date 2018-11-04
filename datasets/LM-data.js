@@ -1,19 +1,19 @@
 const flashStudyQuestions = [{
   "question": "A data structure consisting of a collection of elements, each element is identified by an index",
   "correctAnswer": "array",
-  "answersChoices": ["object", "array", "Linked-list"],
+  "answerChoices": ["object", "array", "Linked-list"],
   "save": false,
   "id": 1
 }, {
   "question": "A function on an object",
   "correctAnswer": "Method",
-  "answersChoices": ["Method", "Function", "Object Function"],
+  "answerChoices": ["Method", "Function", "Object Function"],
   "save": false,
   "id": 2
 }, {
   "question": "This method shallow copies part of an array to another location in the same array and returns it, without modifying its size",
   "correctAnswer": "copyWithin",
-  "answersChoices": ["copyWithin", "copy", "copyThis"],
+  "answerChoices": ["copyWithin", "copy", "copyThis"],
   "save": false,
   "id": 3
 }, {
@@ -107,9 +107,9 @@ const flashStudyQuestions = [{
   "save": false,
   "id": 18
 }, {
-  "question": "jQuery equivalent of this line of js code: document.querySelector(\"h1\").innerText = \"DINOSAUR\"",
+  "question": "jQuery equivalent of document.querySelector(\"h1\").innerText = \"DINOSAUR\"",
   "correctAnswer": "$('h1').text('DINOSAUR')",
-  "answerChoices": ["#('h1').text('DINOSAUR')", "$('h1').innerText('DINOSAUR')", "$('h1').text('DINOSAUR')", "$('h1').text('DINOSAUR')"],
+  "answerChoices": ["#('h1').text('DINOSAUR')", "$('h1').innerText('DINOSAUR')", "$('h1').text('DINOSAUR')"],
   "save": false,
   "id": 19
 }, {
