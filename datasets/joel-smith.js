@@ -1,4 +1,4 @@
-{
+const cssFlashcardsData = {
 	"easier": [{
 			"question": "How would you add a grid to your element class?",
 			"codeFormatAnswers": ["section {display: segmented;}", "section {background: grid;}", "section {display: grid;}"],
