@@ -20,6 +20,8 @@ const { gitQuestions } = require('./datasets/gitGithubQuestions.js');
 const { usefulJavascript } = require('./datasets/kevin-ryan.js');
 const { allTheMethods } = require('./datasets/eric-fitzsimons.js');
 const { javascripty } = require('./datasets/javascripty.js');
+const { jsfunQuestions } = require('./datasets/JSFunTrivia.js');
+const { cssFlashcardsData } = require('./datasets/joel-smith.js');
 
 const datasets = [ 
   { name: 'youTubeVideos', data: youTubeVideos },
