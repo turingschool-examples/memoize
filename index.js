@@ -34,7 +34,8 @@ const datasets = [
   { name: 'answers', data: answers },
   { name: 'codeWizCategories', data: codeWizCategories },
   { name: 'gitQuestions', data: gitQuestions },
-  { name: 'usefulJavascript', data: usefulJavascript }
+  { name: 'allTheMethods', data: allTheMethods },
+  { name: 'javascripty', data: javascripty }
 ];
 
 // EXPRESS CONFIGURATION
