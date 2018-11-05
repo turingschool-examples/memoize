@@ -1,5 +1,5 @@
 
-const  "jsfunQuestions" = [{
+const  jsfunQuestions = [{
       "category": "scope",
       "question": "Which keyword would you use to declare a variable that you will not change?",
       "answers": [
