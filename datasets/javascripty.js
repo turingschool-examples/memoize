@@ -81,14 +81,14 @@ const javascripty = [
     "id": 11, 
     "category": "complex data types", 
     "question": "Which of the following are considered complex data types.", 
-    "answers": ["Arrays, Dates, Objects, JSON", "Booleans, Strings, Closures, JSX", "Numbers, Arrays", "Objects", "Null"], 
+    "answers": ["Arrays, Dates, Objects, JSON", "Booleans, Strings, Closures, JSX", "Numbers, Arrays, Objects, Null"], 
     "correct-answer": "Arrays, Dates, Objects, JSON" 
   },
   {
     "id": 12, 
     "category": "primitive data types", 
     "question": "Which of the following are primitive data types?", 
-    "answers": [ "Numbers, Arrays", "Objects", "Null", "Strings, Numbers, Booleans", "Null", "Undefined", "Booleans, Strings, Closures, JSX"], 
+    "answers": [ "Numbers, Arrays, Objects, Null", "Strings, Numbers, Booleans, Null, Undefined", "Booleans, Strings, Closures, JSX"], 
     "correct-answer": " Strings, Numbers, Booleans, Null, Undefined"
   }, 
   {
