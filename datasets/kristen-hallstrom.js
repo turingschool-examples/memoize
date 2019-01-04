@@ -27,7 +27,7 @@ const codeQuizQ_A = {
     },
     {
       "id": 3,
-      "question": "What are sort()'s two paramaters?",
+      "question": "What are sort()'s two parameters?",
       "answers": [{
           "answer": "(a, b)",
           "correct": true
@@ -40,7 +40,7 @@ const codeQuizQ_A = {
     },
     {
       "id": 4,
-      "question": "Using sort(), how would your return decending numbers?",
+      "question": "Using sort(), how would you return descending numbers?",
       "answers": [{
           "answer": "b - a",
           "correct": true
@@ -172,7 +172,7 @@ const codeQuizQ_A = {
       "id": 14,
       "question": "How do specify what kind of accumulator you want out out of your .reduce()?",
       "answers": [{
-          "answer": "With an optional third parameter, like an empty array",
+          "answer": "With an initial value, like an empty array",
           "correct": true
         },
         {
@@ -185,7 +185,7 @@ const codeQuizQ_A = {
       "id": 15,
       "question": "What is the best case for a .reduce()?",
       "answers": [{
-          "answer": "When you need return a different data type from an array ",
+          "answer": "When you need to return a different data type from an array ",
           "correct": true
         },
         {
@@ -196,7 +196,7 @@ const codeQuizQ_A = {
     },
      {
       "id": 16,
-      "question": "If you need to pull one specific indice out of an array, what prototype method would you use?",
+      "question": "If you need to pull one specific index out of an array, what prototype method would you use?",
       "answers": [{
           "answer": ".reduce() ",
           "correct": true
@@ -209,9 +209,9 @@ const codeQuizQ_A = {
     },
     {
       "id": 17,
-      "question": "If you need to pull one specific indice out of an array, what prototype method would you use?",
+      "question": "If you need to return a subset of an array, what prototype method would you use?",
       "answers": [{
-          "answer": ".reduce() ",
+          "answer": ".filter() ",
           "correct": true
         },
         {
@@ -300,22 +300,22 @@ const codeQuizQ_A = {
     },
     {
       "id": 24,
-      "question": "The callback functions in a .reduce() returns what?",
+      "question": "A .reduce() is a good catch all for all problems?",
       "answers": [{
-          "answer": "an accumulator",
+          "answer": "false",
           "correct": true
         },
         {
-          "answer": "the current value",
+          "answer": "true",
           "correct": false
         }
       ]
     },
     {
       "id": 25,
-      "question": "The callback functions in a .reduce() returns what?",
+      "question": "How many elements will find return?",
       "answers": [{
-          "answer": "an accumulator",
+          "answer": "the first element that matches",
           "correct": true
         },
         {
@@ -326,7 +326,7 @@ const codeQuizQ_A = {
     },
     {
       "id": 26,
-      "question": "Whats the first question you should ask yourself when working with two datasets?",
+      "question": "What’s the first question you should ask yourself when working with two datasets?",
       "answers": [{
           "answer": "What kinds of data have I been given?",
           "correct": true
@@ -339,7 +339,7 @@ const codeQuizQ_A = {
     },
     {
       "id": 27,
-      "question": "Whats the second question you should ask yourself when working with two datasets?",
+      "question": "What’s the second question you should ask yourself when working with two datasets?",
       "answers": [{
           "answer": "What do I need back from these datasets?",
           "correct": true
@@ -352,7 +352,7 @@ const codeQuizQ_A = {
     },
     {
       "id": 28,
-      "question": "Whats the third question you should ask yourself when working with two datasets?",
+      "question": "What’s the third question you should ask yourself when working with two datasets?",
       "answers": [{
           "answer": "What prototype methods could give me what I need back?",
           "correct": true
@@ -365,9 +365,9 @@ const codeQuizQ_A = {
     },
     {
       "id": 29,
-      "question": "Whats the fourth question you should ask yourself when working with two datasets?",
+      "question": "What’s the fourth question you should ask yourself when working with two datasets?",
       "answers": [{
-          "answer": "Which dataset makes the most sense to iterator over?",
+          "answer": "Which dataset makes the most sense to iterate over?",
           "correct": true
         },
         {
@@ -378,7 +378,7 @@ const codeQuizQ_A = {
     },
     {
       "id": 30,
-      "question": "Whats the fifth question you should ask yourself when working with two datasets?",
+      "question": "What’s the fifth question you should ask yourself when working with two datasets?",
       "answers": [{
           "answer": "What do the datasets have in common?",
           "correct": true
@@ -395,4 +395,3 @@ const codeQuizQ_A = {
   module.exports = {
   codeQuizQ_A
 };
-
