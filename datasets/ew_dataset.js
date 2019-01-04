@@ -1,4 +1,4 @@
-const questions = [{
+const ewQuestions = [{
   "id": 1,
   "question": "What array prototype method would return a sum of the elements in an array?",
   "answers": "['.sort() ', 'reduce()','.forEach()']",
@@ -180,4 +180,4 @@ const questions = [{
   "concept": "strings"
 }]
 
-module.exports { questions }
+module.exports = { ewQuestions };

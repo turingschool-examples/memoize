@@ -94,4 +94,4 @@ const aTypes = [
   }
 ]
 
-module.exports = prototypes;
+module.exports = { aTypes };

@@ -392,6 +392,6 @@ const codeQuizQ_A = {
   ]
 }
 
-  module.exports = {
+module.exports = {
   codeQuizQ_A
 };
