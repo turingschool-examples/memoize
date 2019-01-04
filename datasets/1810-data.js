@@ -246,3 +246,7 @@ const jQueryData = [
     "id": 41
   }
 ]
+
+module.exports = {
+  jQueryData
+};
