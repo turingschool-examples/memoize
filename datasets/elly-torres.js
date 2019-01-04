@@ -44,4 +44,4 @@ const prototypeMethods = [
 ];
 
 
-export { prototypeMethods };
+module.exports = { prototypeMethods };
