@@ -38,7 +38,6 @@ const { pvGitCommands } = require('./datasets/paul-gitcommands.js');
 
 
 
-
 const datasets = [ 
   { name: 'youTubeVideos', data: youTubeVideos },
   { name: 'priceQuestions', data: priceQuestions },
@@ -63,7 +62,7 @@ const datasets = [
   { name: 'snapshot', data: snapshot },
   { name: 'codeQuizQ_A', data: codeQuizQ_A },
   { name: 'problems', data: problems },
-  { name: 'interviewQuestions', interviewQuestions },
+  { name: 'interviewQuestions', data: interviewQuestions },
   { name: 'ewQuestions', data: questions },
   { name: 'aTypes', data: aTypes },
   { name: 'adamData', data: adamData },
