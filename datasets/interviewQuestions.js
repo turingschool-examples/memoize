@@ -135,4 +135,4 @@ const interviewQuestions = {
   ]
 };
 
-module.exports = { interviewQuestions }
+module.exports = interviewQuestions
