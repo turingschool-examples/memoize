@@ -39,7 +39,7 @@ const prototypeMethods = [
   ] },
   { "Object Prototype Methods": [
     { "method": "Object.keys()", "id": 29, "description": "Used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.", "parameters": "Target object and source object", "syntax": "Object.keys(obj)", "answers": ["Object.keys()", "Object.assign()"] },
-    { "method": "Object.assign()", "id": 30, "description": "Returns an array of a given object\'s own property names, in the same order as we get with a normal loop.", "parameters": "Source object", "syntax": "Object.assign(target, ...sources)", "answers": ["Object.keys()", "Object.assign()"] }
+    { "method": "Object.assign()", "id": 30, "description": "Returns an array of a given object's own property names, in the same order as we get with a normal loop.", "parameters": "Source object", "syntax": "Object.assign(target, ...sources)", "answers": ["Object.keys()", "Object.assign()"] }
   ] }
 ];
 
