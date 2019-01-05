@@ -35,6 +35,7 @@ const { aTypes } = require('./datasets/aType.js');
 const { adamData } = require('./datasets/adam.js');
 const { questionData } = require('./datasets/shannon-data.js');
 const { pvGitCommands } = require('./datasets/paul-gitcommands.js');
+const { hhTerminalCommands } = require('./datasets/terminal-commands.dataset.js');
 
 
 
@@ -67,7 +68,8 @@ const datasets = [
   { name: 'aTypes', data: aTypes },
   { name: 'adamData', data: adamData },
   { name: 'questionData', data: questionData },
-  { name: 'pvGitCommands', data: pvGitCommands }
+  { name: 'pvGitCommands', data: pvGitCommands },
+  { name: 'hhTerminalCommands', data: hhTerminalCommands }
 
 
 ];

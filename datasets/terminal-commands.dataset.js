@@ -1,4 +1,4 @@
-const terminalCommands = [
+const hhTerminalCommands = [
     {
         "id": 1,
         "description": "Reset terminal screen",
@@ -152,5 +152,5 @@ const terminalCommands = [
 ]
 
 module.exports = {
-    terminalCommands
+    hhTerminalCommands
 }
