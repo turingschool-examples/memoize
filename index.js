@@ -63,7 +63,7 @@ const datasets = [
   { name: 'codeQuizQ_A', data: codeQuizQ_A },
   { name: 'problems', data: problems },
   { name: 'interviewQuestions', data: interviewQuestions },
-  { name: 'ewQuestions', data: questions },
+  { name: 'ewQuestions', data: ewQuestions },
   { name: 'aTypes', data: aTypes },
   { name: 'adamData', data: adamData },
   { name: 'questionData', data: questionData },
