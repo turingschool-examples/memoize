@@ -43,6 +43,7 @@ const { gabeCards } = require('./datasets/gabe-dataset.js');
 const { arrayPrototypeMethods, stringPrototypeMethods, objectPrototypeMethods } = require('./datasets/elly-torres.js');
 const { arrayMethods, stringMethods } = require('./datasets/matt-foxwell.js');
 const { jQueryData } = require('./datasets/theoBean.js');
+const { FlashCardDataSet } = require('./datasets/tom-w-data.js');
 
 
 
@@ -86,7 +87,8 @@ const datasets = [
   { name: 'objectPrototypeMethods', data: objectPrototypeMethods },
   { name: 'arrayMethods', data: arrayMethods },
   { name: 'stringMethods', data: stringMethods },
-  { name: 'jQueryData', data: jQueryData }
+  { name: 'jQueryData', data: jQueryData },
+  { name: 'FlashCardDataSet', data: FlashCardDataSet }
 
 
 
