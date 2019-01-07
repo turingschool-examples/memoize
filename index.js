@@ -38,6 +38,7 @@ const { pvGitCommands } = require('./datasets/paul-gitcommands.js');
 const { hhTerminalCommands } = require('./datasets/terminal-commands.dataset.js');
 const { mod2information } = require('./datasets/eric-fitz2.js');
 const { flexboxData } = require('./datasets/flexbox.js');
+const { fishingVocab } = require('./datasets/js_fishing.js');
 
 
 
@@ -73,7 +74,8 @@ const datasets = [
   { name: 'pvGitCommands', data: pvGitCommands },
   { name: 'hhTerminalCommands', data: hhTerminalCommands },
   { name: 'mod2information', data: mod2information },
-  { name: 'flexboxData', data: flexboxData }
+  { name: 'flexboxData', data: flexboxData },
+  { name: 'fishingVocab', data: fishingVocab }
 
 
 ];

@@ -1,4 +1,4 @@
-const vocabulary =
+const fishingVocab =
 {
   "javascript": {
     "variables": {
@@ -779,4 +779,4 @@ const vocabulary =
   }
 }
 
-module.exports = vocabulary;
+module.exports = { fishingVocab };
