@@ -40,6 +40,7 @@ const { mod2information } = require('./datasets/eric-fitz2.js');
 const { flexboxData } = require('./datasets/flexbox.js');
 const { fishingVocab } = require('./datasets/js_fishing.js');
 const { gabeCards } = require('./datasets/gabe-dataset.js');
+const { arrayPrototypeMethods, stringPrototypeMethods, objectPrototypeMethods } = require('./datasets/elly-torres.js');
 
 
 
@@ -77,7 +78,10 @@ const datasets = [
   { name: 'mod2information', data: mod2information },
   { name: 'flexboxData', data: flexboxData },
   { name: 'fishingVocab', data: fishingVocab },
-  { name: 'gabeCards', data: gabeCards }
+  { name: 'gabeCards', data: gabeCards },
+  { name: 'arrayPrototypeMethods', data: arrayPrototypeMethods },
+  { name: 'stringPrototypeMethods', data: stringPrototypeMethods },
+  { name: 'objectPrototypeMethods', data: objectPrototypeMethods }
 
 
 ];
