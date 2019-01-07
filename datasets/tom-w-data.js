@@ -1,4 +1,4 @@
-flashCardDataSet = [{
+const FlashCardDataSet = [{
   "id": 1,
   "question": "What is 'context' in Javascript?",
   "correctAnswer": "The value of the this keyword, in reference to the object that owns the currently executing code",
@@ -280,3 +280,4 @@ flashCardDataSet = [{
 }
 ]
 
+module.exports = FlashCardDataSet;
