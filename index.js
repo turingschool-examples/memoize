@@ -41,6 +41,7 @@ const { flexboxData } = require('./datasets/flexbox.js');
 const { fishingVocab } = require('./datasets/js_fishing.js');
 const { gabeCards } = require('./datasets/gabe-dataset.js');
 const { arrayPrototypeMethods, stringPrototypeMethods, objectPrototypeMethods } = require('./datasets/elly-torres.js');
+const { arrayMethods, stringMethods } = require('./datasets/matt-foxwell.js');
 
 
 
@@ -81,7 +82,10 @@ const datasets = [
   { name: 'gabeCards', data: gabeCards },
   { name: 'arrayPrototypeMethods', data: arrayPrototypeMethods },
   { name: 'stringPrototypeMethods', data: stringPrototypeMethods },
-  { name: 'objectPrototypeMethods', data: objectPrototypeMethods }
+  { name: 'objectPrototypeMethods', data: objectPrototypeMethods },
+  { name: 'arrayMethods', data: arrayMethods },
+  { name: 'stringMethods', data: stringMethods }
+
 
 
 ];
