@@ -6,7 +6,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "arr.copyWithin(target[, start[, end]])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 2,
@@ -15,7 +15,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "arr.fill(value[, start[, end]])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 3,
@@ -24,7 +24,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "arr.pop()",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 4,
@@ -33,7 +33,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "arr.push(element1[, ...[, elementN]])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 5,
@@ -42,7 +42,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "a.reverse()",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 6,
@@ -51,7 +51,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "arr.shift()",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 7,
@@ -60,7 +60,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "arr.sort([compareFunction])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 8,
@@ -69,7 +69,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "array.splice(start[, deleteCount[, item1[, item2[, ...]]]])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 9,
@@ -78,7 +78,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": "arr.unshift(element1[, ...[, elementN]])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 10,
@@ -87,16 +87,16 @@ const flashcardData = [
    "type": "accessor",
    "syntax": "var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 11,
-   "question": "This method determines whether an array contains a certain element, returning true or false as appropriate.",
+   "question": "This method determines whether an array contains a certain element, returning true or null as appropriate.",
    "answer": ".includes()",
    "type": "accessor",
    "syntax": "arr.includes(valueToFind[, fromIndex])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 12,
@@ -105,7 +105,7 @@ const flashcardData = [
    "type": "accessor",
    "syntax": "arr.indexOf(searchElement[, fromIndex])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 13,
@@ -114,7 +114,7 @@ const flashcardData = [
    "type": "accessor",
    "syntax": "arr.join([separator])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 14,
@@ -123,7 +123,7 @@ const flashcardData = [
    "type": "accessor",
    "syntax": "arr.lastIndexOf(searchElement, fromIndex)",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 15,
@@ -132,7 +132,7 @@ const flashcardData = [
    "type": "accessor",
    "syntax": "arr.slice([begin[, end]])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 16,
@@ -141,7 +141,7 @@ const flashcardData = [
    "type": "accessor",
    "syntax": "arr.toString()",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 17,
@@ -150,7 +150,7 @@ const flashcardData = [
    "type": "accessor",
    "syntax": "arr.toLocaleString([locales[, options]]);",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 18,
@@ -159,7 +159,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "array.entries()",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 19,
@@ -168,7 +168,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.every(callback(element[, index[, array]])[, thisArg])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 20,
@@ -177,7 +177,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 21,
@@ -186,7 +186,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.find(callback[, thisArg])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 22,
@@ -195,7 +195,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.findIndex(callback(element[, index[, array]])[, thisArg])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 23,
@@ -204,7 +204,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.forEach(callback(currentValue[, index[, array]]) {iterator}[, thisArg])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 24,
@@ -213,7 +213,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.keys()",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 25,
@@ -222,7 +222,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.map(callback(currentValue[, index[, array]]) {return element}[, thisArg])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 26,
@@ -231,7 +231,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.reduce(callback[, initialValue])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 27,
@@ -240,7 +240,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.reduceRight(callback[, initialValue])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 28,
@@ -249,7 +249,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.some(callback(element[, index[, array]])[, thisArg])",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 29,
@@ -258,7 +258,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": "arr.values()",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 30,
@@ -267,7 +267,7 @@ const flashcardData = [
    "type": "mutator",
    "syntax": " ",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 31,
@@ -276,7 +276,7 @@ const flashcardData = [
    "type": "accessor",
    "syntax": " ",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype",
-   "correct": false 
+   "correct": null 
  },
  {
    "id": 32,
@@ -285,7 +285,7 @@ const flashcardData = [
    "type": "iteration",
    "syntax": " ",
    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype",
-   "correct": false 
+   "correct": null 
  }
 ]
 
