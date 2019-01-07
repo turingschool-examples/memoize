@@ -280,4 +280,4 @@ const FlashCardDataSet = [{
 }
 ]
 
-module.exports = FlashCardDataSet;
+module.exports = { FlashCardDataSet };
