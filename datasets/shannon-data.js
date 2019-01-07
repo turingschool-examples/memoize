@@ -9,7 +9,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 100
+    "pointsValue": 100,
+    "questionID": 0
   },
   {
     "question": "What is a module?",
@@ -21,7 +22,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 100
+    "pointsValue": 100,
+    "questionID": 1
   },
   {
     "question": "What is the biggest benefit to using NPM packages?",
@@ -33,7 +35,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 100
+    "pointsValue": 100,
+    "questionID": 2
   },
   {
     "question": "Which official website is used to browse packages, documentation and support for NPM?",
@@ -45,7 +48,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 200
+    "pointsValue": 200,
+    "questionID": 3
   },
   {
     "question": "Are Node.js and NPM the same?",
@@ -57,7 +61,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 200
+    "pointsValue": 200,
+    "questionID": 4
   },
   {
     "question": "NPM stands for:",
@@ -69,7 +74,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 200
+    "pointsValue": 200,
+    "questionID": 5
   },
   {
     "question": "What is a package.json file?",
@@ -81,7 +87,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 300
+    "pointsValue": 300,
+    "questionID": 6
   },
   {
     "question": "What is a package-lock.json file?",
@@ -93,7 +100,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 300
+    "pointsValue": 300,
+    "questionID": 7
   },
   {
     "question": "What is the main reason we need a package.json file?",
@@ -105,7 +113,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Easy",
-    "pointsValue": 300
+    "pointsValue": 300,
+    "questionID": 8
   },
   {
     "question": "How do I install NPM modules locally (in the current directory)?",
@@ -117,7 +126,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Easy",
-    "pointsValue": 350
+    "pointsValue": 350,
+    "questionID": 9
   },
   {
     "question": "Which file holds the scripts property in order to execute the relevant code?",
@@ -129,7 +139,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Moderate",
-    "pointsValue": 400
+    "pointsValue": 400,
+    "questionID": 10
   },
   {
     "question": "What is the main difference between a dependency and a devDependency?",
@@ -141,7 +152,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Moderate",
-    "pointsValue": 400
+    "pointsValue": 400,
+    "questionID": 11
   },
   {
     "question": "Which of these should be a devDependency?",
@@ -153,7 +165,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Moderate",
-    "pointsValue": 400
+    "pointsValue": 400,
+    "questionID": 12
   },
   {
     "question": "Which of these should be a dependency (not a devDependency)?",
@@ -165,7 +178,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Moderate",
-    "pointsValue": 500
+    "pointsValue": 500,
+    "questionID": 13
   },
   {
     "question": "Which of these folders or files should not be pushed to version control?",
@@ -177,7 +191,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Moderate",
-    "pointsValue": 500
+    "pointsValue": 500,
+    "questionID": 14
   },
   {
     "question": "What is stored inside of my project's node_modules folder?",
@@ -189,7 +204,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Moderate",
-    "pointsValue": 500
+    "pointsValue": 500,
+    "questionID": 15
   },
   {
     "question": "How do I initialize a project and create a package.json file?",
@@ -201,7 +217,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Moderate",
-    "pointsValue": 600
+    "pointsValue": 600,
+    "questionID": 16
   },
   {
     "question": "Which of these options allow an NPM module to be installed globally?",
@@ -213,7 +230,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Moderate",
-    "pointsValue": 600
+    "pointsValue": 600,
+    "questionID": 17
   },
   {
     "question": "How can I install Redux locally?",
@@ -225,7 +243,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Moderate",
-    "pointsValue": 600
+    "pointsValue": 600,
+    "questionID": 18
   },
   {
     "question": "How can I install ESLint locally as a devDependency?",
@@ -237,7 +256,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Moderate",
-    "pointsValue": 650
+    "pointsValue": 650,
+    "questionID": 19
   },
   {
     "question": "What is a peer dependency?",
@@ -249,7 +269,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Challenging",
-    "pointsValue": 700
+    "pointsValue": 700,
+    "questionID": 20
   },
   {
     "question": "How can I add myself as a user in order to publish my own NPM module?",
@@ -261,7 +282,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 700
+    "pointsValue": 700,
+    "questionID": 21
   },
   {
     "question": "I'd like to update my NPM packages, but I'm not sure how...",
@@ -273,7 +295,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 700
+    "pointsValue": 700,
+    "questionID": 22
   },
   {
     "question": "Which negative scenario would a peer dependency solve?",
@@ -285,7 +308,8 @@ const questionData = [
     ],
     "category": "Concepts",
     "difficulty": "Challenging",
-    "pointsValue": 800
+    "pointsValue": 800,
+    "questionID": 23
   },
   {
     "question": "I'm ready to publish my NPM package, which command is correct?",
@@ -297,7 +321,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 800
+    "pointsValue": 800,
+    "questionID": 24
   },
   {
     "question": "How should I bump my NPM existing package with my new version of it?",
@@ -309,7 +334,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 800
+    "pointsValue": 800,
+    "questionID": 25
   },
   {
     "question": "What is Semantic Versioning (SemVer)?",
@@ -321,7 +347,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 900
+    "pointsValue": 900,
+    "questionID": 26
   },
   {
     "question": "In semantic versioning, the number in the middle position indicates:",
@@ -333,7 +360,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 900
+    "pointsValue": 900,
+    "questionID": 27
   },
   {
     "question": "Which type of licenses are most often preferable when creating an NPM package?",
@@ -345,7 +373,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 900
+    "pointsValue": 900,
+    "questionID": 28
   },
   {
     "question": "In relation to NPM packages, what is a package scope?",
@@ -357,7 +386,8 @@ const questionData = [
     ],
     "category": "Commands",
     "difficulty": "Challenging",
-    "pointsValue": 1000
+    "pointsValue": 1000,
+    "questionID": 29
   }
  ]
  
