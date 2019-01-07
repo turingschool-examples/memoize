@@ -39,6 +39,7 @@ const { hhTerminalCommands } = require('./datasets/terminal-commands.dataset.js'
 const { mod2information } = require('./datasets/eric-fitz2.js');
 const { flexboxData } = require('./datasets/flexbox.js');
 const { fishingVocab } = require('./datasets/js_fishing.js');
+const { gabeCards } = require('./datasets/gabe-dataset.js');
 
 
 
@@ -75,7 +76,8 @@ const datasets = [
   { name: 'hhTerminalCommands', data: hhTerminalCommands },
   { name: 'mod2information', data: mod2information },
   { name: 'flexboxData', data: flexboxData },
-  { name: 'fishingVocab', data: fishingVocab }
+  { name: 'fishingVocab', data: fishingVocab },
+  { name: 'gabeCards', data: gabeCards }
 
 
 ];

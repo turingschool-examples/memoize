@@ -1,5 +1,5 @@
 
- const cards = [
+ const gabeCards = [
         {
             "catagory": "html",
             "question": "What are the three main tags that all HTMl structure needs?",
@@ -351,4 +351,5 @@
             "color": "#f7d33c"
         }
     ]
-module.exports = { cards };
+module.exports = { gabeCards };
+
