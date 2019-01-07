@@ -42,6 +42,7 @@ const { fishingVocab } = require('./datasets/js_fishing.js');
 const { gabeCards } = require('./datasets/gabe-dataset.js');
 const { arrayPrototypeMethods, stringPrototypeMethods, objectPrototypeMethods } = require('./datasets/elly-torres.js');
 const { arrayMethods, stringMethods } = require('./datasets/matt-foxwell.js');
+const { jQueryData } = require('./datasets/theoBean.js');
 
 
 
@@ -84,7 +85,8 @@ const datasets = [
   { name: 'stringPrototypeMethods', data: stringPrototypeMethods },
   { name: 'objectPrototypeMethods', data: objectPrototypeMethods },
   { name: 'arrayMethods', data: arrayMethods },
-  { name: 'stringMethods', data: stringMethods }
+  { name: 'stringMethods', data: stringMethods },
+  { name: 'jQueryData', data: jQueryData }
 
 
 
