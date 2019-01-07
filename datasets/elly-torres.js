@@ -1,5 +1,4 @@
-const prototypeMethods = [
-  { "arrayPrototypeMethods": [
+const arrayPrototypeMethods = [
     { "Mutators": [ 
       { "method": ".pop()", "id": 1, "description": "Removes the last element from an array and returns that element.", "parameters": "none", "syntax": "arr.pop()", "answers": [".push()", ".shift()", ".pop()", ".sort()", ".splice()", ".unshift()"] },
       { "method": ".push()", "id": 2, "description": "Adds one or more elements to the end of an array and returns the new length of the array.", "parameters": "The elements to add to the end of the array", "syntax": "arr.push(element1[, ...[, elementN]])", "answers": [".pop()", ".sort()", ".push()", ".shift()", ".splice()", ".unshift()"] },
@@ -22,8 +21,8 @@ const prototypeMethods = [
       { "method": ".join()", "id": 15, "description": "Creates and returns a new string by concatenating all of the elements in an array (or array-like object), separated by commas or a specified separator string.", "parameters": "Optional separator", "syntax": "arr.join([separator])", "answers": [".includes()", ".slice()", ".concat()", ".join()", ".indexOf()"] },
       { "method": ".slice()", "id": 16, "description": "Returns a portion of an array into a new array selected from begin to end (end not included in new array).", "parameters": "Optional startIndex(otherwise starts at 0), negative value that extracts from end, and index to end", "syntax": "arr.slice([begin[, end]])", "answers": [".includes()", ".slice()", ".concat()", ".join()", ".indexOf()"] }
     ] }
-  ] },
-  { "stringPrototypeMethods": [
+];
+const stringPrototypeMethods = [
     { "method": ".charAt()", "id": 17, "description": "Returns a new string (exactly one UTF-16 code unit) at the specified index.", "parameters": "Index (if index omitted, default is 0)", "syntax": "str.charAt(index)", "answers": [".slice()", ".charAt()", ".concat()", ".trim()", ".split()", ".includes()", ".toLowerCase()", ".indexOf()", ".padEnd()", ".toUpperCase()", ".substring()", ".repeat()"] },
     { "method": ".concat()", "id": 18, "description": "Combines string arguments and returns a new string", "parameters": "String(s) to concatenate to calling string", "syntax": "str.concat(string2[, string3, ..., stringN])", "answers": [".slice()", ".charAt()", ".concat()", ".trim()", ".split()", ".includes()", ".toLowerCase()", ".indexOf()", ".padEnd()", ".toUpperCase()", ".substring()", ".repeat()"] },
     { "method": ".includes()", "id": 19, "description": "Determines whether one string may be found within another string, returning true or false as appropriate.", "parameters": "String to search for in calling string and optional startIndex", "syntax": "str.includes(searchString[, position])", "answers": [".slice()", ".charAt()", ".concat()", ".trim()", ".split()", ".includes()", ".toLowerCase()", ".indexOf()", ".padEnd()", ".toUpperCase()", ".substring()", ".repeat()"] },
@@ -36,12 +35,12 @@ const prototypeMethods = [
     { "method": ".toLowerCase()", "id": 26, "description": "Returns the calling string value converted to lower case.", "parameters": "none", "syntax": "str.toLowerCase()", "answers": [".slice()", ".charAt()", ".concat()", ".trim()", ".split()", ".includes()", ".toLowerCase()", ".indexOf()", ".padEnd()", ".toUpperCase()", ".substring()", ".repeat()"] },
     { "method": ".toUpperCase()", "id": 27, "description": "Returns the calling string value converted to uppercase.", "parameters": "none", "syntax": "str.toUpperCase()", "answers": [".slice()", ".charAt()", ".concat()", ".trim()", ".split()", ".includes()", ".toLowerCase()", ".indexOf()", ".padEnd()", ".toUpperCase()", ".substring()", ".repeat()"] },
     { "method": ".trim()", "id": 28, "description": "Trims whitespace from the beginning and end of the string.", "parameters": "none", "syntax": "str.trim()", "answers": [".slice()", ".charAt()", ".concat()", ".trim()", ".split()", ".includes()", ".toLowerCase()", ".indexOf()", ".padEnd()", ".toUpperCase()", ".substring()", ".repeat()"] }
-  ] },
-  { "objectPrototypeMethods": [
+];
+const objectPrototypeMethods = [
     { "method": "Object.keys()", "id": 29, "description": "Used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.", "parameters": "Target object and source object", "syntax": "Object.keys(obj)", "answers": ["Object.keys()", "Object.assign()"] },
     { "method": "Object.assign()", "id": 30, "description": "Returns an array of a given object's own property names, in the same order as we get with a normal loop.", "parameters": "Source object", "syntax": "Object.assign(target, ...sources)", "answers": ["Object.keys()", "Object.assign()"] }
-  ] }
 ];
 
 
-module.exports = { prototypeMethods };
+module.exports = { arrayPrototypeMethods, stringPrototypeMethods, objectPrototypeMethods };
+
