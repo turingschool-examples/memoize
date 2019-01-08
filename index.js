@@ -37,6 +37,13 @@ const { questionData } = require('./datasets/shannon-data.js');
 const { pvGitCommands } = require('./datasets/paul-gitcommands.js');
 const { hhTerminalCommands } = require('./datasets/terminal-commands.dataset.js');
 const { mod2information } = require('./datasets/eric-fitz2.js');
+const { flexboxData } = require('./datasets/flexbox.js');
+const { fishingVocab } = require('./datasets/js_fishing.js');
+const { gabeCards } = require('./datasets/gabe-dataset.js');
+const { arrayPrototypeMethods, stringPrototypeMethods, objectPrototypeMethods } = require('./datasets/elly-torres.js');
+const { arrayMethods, stringMethods } = require('./datasets/matt-foxwell.js');
+const { jQueryData } = require('./datasets/theoBean.js');
+const { FlashCardDataSet } = require('./datasets/tom-w-data.js');
 
 
 
@@ -71,7 +78,18 @@ const datasets = [
   { name: 'questionData', data: questionData },
   { name: 'pvGitCommands', data: pvGitCommands },
   { name: 'hhTerminalCommands', data: hhTerminalCommands },
-  { name: 'mod2information', data: mod2information }
+  { name: 'mod2information', data: mod2information },
+  { name: 'flexboxData', data: flexboxData },
+  { name: 'fishingVocab', data: fishingVocab },
+  { name: 'gabeCards', data: gabeCards },
+  { name: 'arrayPrototypeMethods', data: arrayPrototypeMethods },
+  { name: 'stringPrototypeMethods', data: stringPrototypeMethods },
+  { name: 'objectPrototypeMethods', data: objectPrototypeMethods },
+  { name: 'arrayMethods', data: arrayMethods },
+  { name: 'stringMethods', data: stringMethods },
+  { name: 'jQueryData', data: jQueryData },
+  { name: 'FlashCardDataSet', data: FlashCardDataSet }
+
 
 
 ];

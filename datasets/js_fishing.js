@@ -1,5 +1,5 @@
-const topics = {
 
+const topics = {
   "javascript": {
     "variables": {
       "description": "containers for storing values",
@@ -790,5 +790,4 @@ const topics = {
     }
   }
 }
-
-module.exports = topics;
+module.exports = {topics};
