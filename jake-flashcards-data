@@ -1,0 +1,152 @@
+const flashCards = [
+  { "proplem": "What prototype would be used to rearrange this data so that it's in alphabetical order?",
+    "snippet": "const months = ['March', 'Jan', 'Feb', 'Dec'];",
+    "data-type": "array",
+    "solution-prototype": "sort"
+  },
+  { "proplem": "What prototype would be used to make this data convey the appropriate tone?",
+    "snippet": "const exclamation = 'help, my eyes are on fire'; ",
+    "data-type": "string",
+    "solution-prototype": "toUpperCase"
+  },
+  { "proplem": "What prototype would be used to rearrange this data so that it's in ascending order?",
+    "snippet": "const numbers = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];",
+    "data-type": "array",
+    "solution-prototype": "reverse"
+  },
+  { "proplem": "What prototype would be used to determine whether or not any of the data in the array matches the variable?",
+    "snippet": "const food = ['sandwhich', 'popcorn', 'hotdog', 'cotton candy'] const faveFood = 'cotton candy'; ",
+    "data-type": "array",
+    "solution-prototype": "includes"
+  },
+  { "proplem": "What prototype would be used to add a value of 1 to each number in the data?",
+    "snippet": "const numbers = [12, 15, 82, 17, 39];",
+    "data-type": "array",
+    "solution-prototype": "map"
+  },
+  { "proplem": "What prototype would be used to combine the elements in this data into a single string?",
+    "snippet": "const combine = ['pop', 'corn', '-chicken'];",
+    "data-type": "array",
+    "solution-prototype": "join"
+  },
+  { "proplem": "What prototype would be used to remove 'Tommy' from the data?",
+    "snippet": "const friends = ['David', 'Richard', 'Rebecca', 'Angelo', 'Tommy'];",
+    "data-type": "array",
+    "solution-prototype": "pop"
+  },
+  { "proplem": "What prototype would be used to return all the objects in the data that are blue?",
+    "snippet": "const monkeys = [{name: 'David', color: 'green'}, {name: 'Richard', color: 'blue'}, {name: 'Rebecca', color: 'blue'}, {name: 'Angelo', color: 'yellow'}, {name: 'Tommy', color: 'red'}];",
+    "data-type": "array",
+    "solution-prototype": "filter"
+  },
+  { "proplem": "What prototype would be used to return just the first object in the data that is blue?",
+    "snippet": "const monkeys = [{name: 'David', color: 'green'}, {name: 'Richard', color: 'blue'}, {name: 'Rebecca', color: 'blue'}, {name: 'Angelo', color: 'yellow'}, {name: 'Tommy', color: 'red'}];",
+    "data-type": "array",
+    "solution-prototype": "find"
+  },
+  { "proplem": "What prototype would be used to add a new string to the beginning of the data?",
+    "snippet": "const friends = ['David', 'Richard', 'Rebecca', 'Angelo', 'Tommy'];",
+    "data-type": "array",
+    "solution-prototype": "unshift"
+  },
+  { "proplem": "What prototype would be used to make this data convey the appropriate tone?",
+    "snippet": "const whisper = 'THIS IS THE WORLDS QUIETEST SENTENCE'; ",
+    "data-type": "string",
+    "solution-prototype": "toLowerCase"
+  },
+  { "proplem": "What prototype would be used to turn this string data into an array of multiple strings",
+    "snippet": "const words = 'popcorn,pizza,hotdog,salsa,soda'; ",
+    "data-type": "string",
+    "solution-prototype": "split"
+  },
+  { "proplem": "What prototype would be used to return just the word 'burger' from the data?",
+    "snippet": "const food = 'hamburger'; ",
+    "data-type": "string",
+    "solution-prototype": "slice"
+  },
+  { "proplem": "What prototype would be used to return a new set of data that consists of a combined version of the two datasets?",
+    "snippet": "const dinner = ['turkey', 'mashed potatoes', 'carrots', 'gravy']; const dessert = ['cake', 'pecan pie', 'apple cobbler'];",
+    "data-type": "array",
+    "solution-prototype": "concat"
+  },
+  { "proplem": "What prototype would be used to return new data of the elements in the previous data with the word 'pop' added to the end",
+    "snippet": "const sodapop = ['orange soda', 'cherry soda', 'cream soda']",
+    "data-type": "array",
+    "solution-prototype": "map"
+  },
+  { "proplem": "What prototype would be used to add all the numbers of the data into one sum?",
+    "snippet": "const array1 = [1, 2, 3, 4];",
+    "data-type": "array",
+    "solution-prototype": "reduce"
+  },
+  { "proplem": "What prototype would be used to return all the objects in the data that have long hair?",
+    "snippet": "const people = [{name: 'adam', hair: 'long'}, {name: 'sarah', hair: 'short'}, {name: 'bobby', hair: 'long'}, {name: 'tommy'}, hair: 'short'];",
+    "data-type": "array",
+    "solution-prototype": "filter"
+  },
+  { "proplem": "What prototype would be used to return the first value in the data that is greater than 15?",
+    "snippet": "const array1 = [5, 12, 8, 130, 44];",
+    "data-type": "array",
+    "solution-prototype": "find"
+  },
+  { "proplem": "What prototype would be used to remove 'angel' from the data?",
+    "snippet": "const fish = ['angel', 'clown', 'mandarin', 'surgeon'];",
+    "data-type": "array",
+    "solution-prototype": "shift"
+  },
+  { "proplem": "What prototype would be used to add a new value in the data between 'clown' and 'mandarin'",
+    "snippet": "const fish = ['angel', 'clown', 'mandarin', 'sturgeon'];",
+    "data-type": "array",
+    "solution-prototype": "splice"
+  },
+  { "proplem": "What prototype would be used to convert this data into a single string?",
+    "snippet": "cont array1 = [1, 2, 'a', '1a'];",
+    "data-type": "array",
+    "solution-prototype": "toString"
+  },
+  { "proplem": "What prototype would be used to add new values to the end of the data?",
+    "snippet": "const sports = ['soccer', 'baseball'];",
+    "data-type": "array",
+    "solution-prototype": "push"
+  },
+  { "proplem": "What prototype would be used to rearrange the values in the data so that they are in ascending order?",
+    "snippet": "const numbers = [4, 2, 5, 1, 3];",
+    "data-type": "array",
+    "solution-prototype": "sort"
+  },
+  { "proplem": "What prototype would be used to convert the data into one string with the commas intact",
+    "snippet": "cont music = ['Earth', 'Wind', 'and Fire'];",
+    "data-type": "array",
+    "solution-prototype": "join"
+  },
+  { "proplem": "What prototype would be used to make the data read more loudly?",
+    "snippet": "const sentence = 'The quick brown fox jumps over the lazy dog.';",
+    "data-type": "string",
+    "solution-prototype": "toUpperCase"
+  },
+  { "proplem": "What prototype would be used to rearrange the data so that it is in descending order?",
+    "snippet": "const counter = ['one', 'two', 'three'];",
+    "data-type": "array",
+    "solution-prototype": "reverse"
+  },
+  { "proplem": "What prototype would be used to make it so the data no longer contains the last value",
+    "snippet": "const counter = ['one', 'two', 'three'];",
+    "data-type": "array",
+    "solution-prototype": "shift"
+  },
+  { "proplem": "What prototype would be used to return just the middle three words in the data?",
+    "snippet": "const sentence = 'The quick brown fox jumps over the lazy dog.';",
+    "data-type": "string",
+    "solution-prototype": "slice"
+  },
+  { "proplem": "What prototype would be used to make it so the data had no capital letters?",
+    "snippet": "const sentence = 'The Quick Brown Fox Jumps Over The Lazy Dog.';",
+    "data-type": "string",
+    "solution-prototype": "toLowerCase"
+  },
+  { "proplem": "What prototype would be used to determine whether or not the data contains value of 'dog' anywhere inside of it?",
+    "snippet": "const pets = ['cat', 'dog', 'bat'];",
+    "data-type": "array",
+    "solution-prototype": "includes"
+  }
+]
