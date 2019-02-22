@@ -1,397 +1,275 @@
-const codeQuizQ_A = {
-  "Questions": [{
-      "id": 1,
-      "question": "What is the syntax to get an object's keys?",
-      "answers": [{
-          "answer": "Object.keys(objName)",
-          "correct": true
-        },
-        {
-          "answer": "objName.object.keys()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "question": "What does Object.keys return?",
-      "answers": [{
-          "answer": "['key1','key2']",
-          "correct": true
-        },
-        {
-          "answer": "{'key1','key2'}",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "question": "What are sort()'s two parameters?",
-      "answers": [{
-          "answer": "(a, b)",
-          "correct": true
-        },
-        {
-          "answer": "(1, 2)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "question": "Using sort(), how would you return descending numbers?",
-      "answers": [{
-          "answer": "b - a",
-          "correct": true
-        },
-        {
-          "answer": "2 - 1",
-          "correct": false
-        }
-      ]
-    },
-     {
-      "id": 5,
-      "question": "Does sort() take a callback function?",
-      "answers": [{
-          "answer": "false",
-          "correct": true
-        },
-        {
-          "answer": "true",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "question": "If you wanted to split a string with a space between every letter, how would you write that?",
-      "answers": [{
-          "answer": "string.split('')",
-          "correct": true
-        },
-        {
-          "answer": "string.split(_)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "question": "If you wanted to join letters into a word, how would you write that?",
-      "answers": [{
-          "answer": "string.join('')",
-          "correct": true
-        },
-        {
-          "answer": "string.join(+)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "question": "What would the array prototype method .flat() be useful for?",
-      "answers": [{
-          "answer": "['value1'['value2']] // ['value1','value2']",
-          "correct": true
-        },
-        {
-          "answer": "['value1']['value2'] // ['value1','value2']",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "question": "Can you iterate over an object?",
-      "answers": [{
-          "answer": "false",
-          "correct": true
-        },
-        {
-          "answer": "true",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "question": "How could you access an object with a key that changes?",
-      "answers": [{
-          "answer": "[]notation",
-          "correct": true
-        },
-        {
-          "answer": ".notation",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "question": "What always needs to be returned out of a .reduce()",
-      "answers": [{
-          "answer": "the accumulator",
-          "correct": true
-        },
-        {
-          "answer": "the key",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "question": "Does a .reduce() takes a callback function?",
-      "answers": [{
-          "answer": "true",
-          "correct": true
-        },
-        {
-          "answer": "false",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "question": "In the .reduce()'s callback function, what are your two parameters?",
-      "answers": [{
-          "answer": "(accu, currVal)",
-          "correct": true
-        },
-        {
-          "answer": "(asym, key)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "question": "How do specify what kind of accumulator you want out out of your .reduce()?",
-      "answers": [{
-          "answer": "With an initial value, like an empty array",
-          "correct": true
-        },
-        {
-          "answer": "With a named variable",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "question": "What is the best case for a .reduce()?",
-      "answers": [{
-          "answer": "When you need to return a different data type from an array ",
-          "correct": true
-        },
-        {
-          "answer": "When you need to return an array of the same length from an array",
-          "correct": false
-        }
-      ]
-    },
-     {
-      "id": 16,
-      "question": "If you need to pull one specific index out of an array, what prototype method would you use?",
-      "answers": [{
-          "answer": ".reduce() ",
-          "correct": true
-        },
-        {
-          "answer": ".find()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "question": "If you need to return a subset of an array, what prototype method would you use?",
-      "answers": [{
-          "answer": ".filter() ",
-          "correct": true
-        },
-        {
-          "answer": ".find()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "question": ".sort() method is an example of what",
-      "answers": [{
-          "answer": "a mutator method ",
-          "correct": true
-        },
-        {
-          "answer": "an accessor method",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "question": ".join() method is an example of what?",
-      "answers": [{
-          "answer": "an accessor method",
-          "correct": true
-        },
-        {
-          "answer": "a mutator method",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "question": ".forEach() method is an example of what?",
-      "answers": [{
-          "answer": "an iterator method",
-          "correct": true
-        },
-        {
-          "answer": "a mutator method",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "question": "The callback functions in both .filter() and .find() return what?",
-      "answers": [{
-          "answer": "a boolean value",
-          "correct": true
-        },
-        {
-          "answer": "an accumulator",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "question": "The callback functions in a .map() returns what?",
-      "answers": [{
-          "answer": "a modified version of the current element",
-          "correct": true
-        },
-        {
-          "answer": "undefined",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "question": "The callback functions in a .reduce() returns what?",
-      "answers": [{
-          "answer": "an accumulator",
-          "correct": true
-        },
-        {
-          "answer": "the current value",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "question": "A .reduce() is a good catch all for all problems?",
-      "answers": [{
-          "answer": "false",
-          "correct": true
-        },
-        {
-          "answer": "true",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "question": "How many elements will find return?",
-      "answers": [{
-          "answer": "the first element that matches",
-          "correct": true
-        },
-        {
-          "answer": "the current element",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "question": "What’s the first question you should ask yourself when working with two datasets?",
-      "answers": [{
-          "answer": "What kinds of data have I been given?",
-          "correct": true
-        },
-        {
-          "answer": "What prototype methods can I remember?",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "question": "What’s the second question you should ask yourself when working with two datasets?",
-      "answers": [{
-          "answer": "What do I need back from these datasets?",
-          "correct": true
-        },
-        {
-          "answer": "What would make these datasets more useful?",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "question": "What’s the third question you should ask yourself when working with two datasets?",
-      "answers": [{
-          "answer": "What prototype methods could give me what I need back?",
-          "correct": true
-        },
-        {
-          "answer": "Who wrote these datasets?",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "question": "What’s the fourth question you should ask yourself when working with two datasets?",
-      "answers": [{
-          "answer": "Which dataset makes the most sense to iterate over?",
-          "correct": true
-        },
-        {
-          "answer": "Why am I using these datasets?",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "question": "What’s the fifth question you should ask yourself when working with two datasets?",
-      "answers": [{
-          "answer": "What do the datasets have in common?",
-          "correct": true
-        },
-        {
-          "answer": "What am I even doing here?",
-          "correct": false
-        }
-      ]
-    }
-  ]
-}
+let handbook = [
+  { 
+    "question": "HTML stands for",
+    "answers": [
+            "Hypertext Markup Language",
+            "Hypertext Moxie Language",
+            "Hyperbolic Markup Language",
+            "Hypertext Markup Links"
+    ] 
+  },
+  { 
+    "question": "People access websites through software called a",
+    "answers": [
+                "Web browser",
+                "Web developer",
+                "Web researcher",
+                "Web controller"
+    ]
+  },
+  {
+    "question":  "Network request can be made with",
+    "answers": [
+                "All of these",
+                "A url",
+                "Script tags",
+                "Fetch calls" 
+    ]
+  },
+  { 
+    "question": "Network requests are made to a",
+    "answers": [
+              "Web server",
+              "Web browser",
+              "Server farm",
+              "Web controller"
+    ]
+  },
+  { 
+    "question": "Arguably the hardest thing about front-end dev is",
+    "answers": [
+              "Cross browser compatibility",
+              "Javascript",
+              "Hypertext Markup Language",
+              "Internet Explorer"
+    ]
+  },
+  { 
+    "question": "Which of the following tags are non-semantic HTML",
+    "answers": [
+                "<div> & <span>",
+                "<div> & <section>",
+                "<h1> & <span>",
+                "<p> & <form>"
+    ]
+  },
+  { 
+    "question": "Semantic HTML is",
+    "answers": [
+                "All of these",
+                "Good for developer empathy",
+                "Good for screen readers",
+                "Easily forgotten in React"
+    ]
+  },
+  { 
+    "question": "CSS stands for",
+    "answers": [
+                "Cascading Style Sheet",
+                "Computer Style Sheet",
+                "Computer Script System",
+                "Cascading Script System"
+    ]
+  },
+  {
+    "question": "SCSS stands for",
+    "answers": [
+                "Sassy Cascading Style Sheet",
+                "Stylish Computer Script Sheet",
+                "Sassy Computer Script System",
+                "Stylish Cascading Script System"
+    ]
+  },
+  {
+    "question": "Which of the following are true about SCSS",
+    "answers": [
+                "All of these",
+                "It’s SASS + CSS",
+                "It blends CSS with JS logic",
+                "It has less rigid syntax than SASS"
+    ]
+  },
+  {
+    "question": "Which of these is the de facto language of the internet",
+    "answers": [
+                "JavaScript",
+                "JSON",
+                "Java",
+                "CoffeeScript"
+    ]
+  },
+  {
+    "question": "What is the other name for JavaScripts",
+    "answers": [
+                "ECMAScript",
+                "JavaCoffee",
+                "CoffeeScript",
+                "Java"
+    ]
+  },
+  {
+    "question": "Which of the following are true about jQuery",
+    "answers": [
+                "All of these",
+                "It is a JS library",
+                "the syntax is shorter then JS",
+                "It does everything JS can do"
+    ]
+  },
+  {
+    "question": "What does DOM stand for",
+    "answers": [
+                "Document Object Model",
+                "Digital Object Model",
+                "Document Object Manipulation",
+                "Document Object Manipulation"
+    ]
+  },
+  { 
+    "question":  "React uses a special kind of DOM, called",
+    "answers": [
+                "A Virtual DOM",
+                "A Video DOM",
+                "A Reality DOM",
+                "A Viewing DOM"
+    ]
+  },
+  {
+    "question": "What is OOP",
+    "answers": [
+                "Object Oriented Programing",
+                "Object Oriented Protocol",
+                "Operation Object Programing",
+                "Optional Object Protocol"
+    ]
+  },
+  { "question": "What does AJAX stand for",
+    "answers": [
+                "Asynchronous JavaScript And XML",
+                "Algorithm JavaScript And XML ",
+                "Asynchronous jQuery And XML",
+                "Asynchronous JavaScript Also XL"
+    ]
+  },
+  {
+    "question": "XML, though slightly outdated, stands for",
+    "answers": [
+                "Extensible markup language",
+                "Exit markup language ",
+                "XL markup language",
+                "Existing markup language"
+    ]
+  },
+  { 
+    "question": "JS is executed",
+    "answers": [
+                "Synchronously",
+                "Asynchronously ",
+                "Congruently",
+                "Non-congruently"
+    ]
+  },
+  {
+    "question": "A fetch request is executed",
+    "answers": [
+                "Asynchronousl",
+                "Synchronously",
+                "Congruently",
+                "Non-congruently"
+    ]
+  },
+  { 
+    "question": "A fetch replaces what",
+    "answers": [
+                "XHR, Xml Http Requests",
+                "Xmling",
+                "HR requests",
+                "Hyper linking"
+    ]
+  },
+  {
+    "question": "JS classes are similar to these in React",
+    "answers": [
+                "Components",
+                "Props ",
+                "State",
+                "Data"
+    ]
+  },
+  {
+    "question": "JS classes are similar to these in React",
+    "answers": [
+                "Components",
+                "Props ",
+                "State",
+                "Data"
+    ]
+  },
+  { 
+    "question": "Classes and Components work best on SRP, which means",
+    "answers": [
+                "Single Responsibility Principle",
+                "Syntax Response Principle ",
+                "Single Responsibility Program",
+                "Single Response paradigm"
+    ]
+  },
+  {
+    "question": "The three basic languages of the internet are",
+    "answers": [
+                "HTML, CSS & JS",
+                "HTML, SCSS & JS ",
+                "HTML, CSS & jQuery",
+                "XML, CSS & JS"
+    ]
+  },
+  {
+    "question": "What is developer empathy",
+    "answers": [
+                "Writing easy to follow code for other devs",
+                "Know what other devs must be feeling ",
+                "Group think based programing",
+                "Feeling for the end user"
+    ]
+  },
+  { 
+    "question": "Who is a screen reader is used by",
+    "answers": [
+                "All of these",
+                "The legally blind ",
+                "People with learning disabilities",
+                "The illiterate"
+    ]
+  },
+  {
+    "question": "What direction does data flow in React",
+    "answers": [
+                "Down",
+                "Up",
+                "All direction",
+                "Sibling to Sibling"
+    ]
+  },
+  {
+    "question": "React was created by",
+    "answers": [
+                "Facebook",
+                "Twitter ",
+                "Instagram",
+                "Pinterest"
+    ]
+  },
+  { 
+    "question": "What does every react page need at the top",
+    "answers": [
+                "To import React",
+                "To import components from React ",
+                "To import React Dom",
+                "To import Data from React"
+    ]
+  }
+]
 
-  module.exports = {
-  codeQuizQ_A
-};
+module.exports = {
+    handbook  
+}
