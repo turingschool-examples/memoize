@@ -1,5 +1,4 @@
-{
-  "cards": [
+const cards = [
     {
       "id": 101,
       "category": "html", 
@@ -330,5 +329,8 @@
       "var exampleVar", 
       "new exampleVar"]
     }
-  ]
-}
+]
+
+module.exports = { 
+  cards 
+};
