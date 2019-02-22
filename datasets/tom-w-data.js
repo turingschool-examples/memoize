@@ -277,7 +277,112 @@ const FlashCardDataSet = [{
   "correctAnswer": "Pugs",
   "falseAnswer1": "Poodles",
   "falseAnswer2": "Cats, actually"
+},
+{
+  "id": 41,
+  "question": "Should you ever directly mutate state in React?",
+  "correctAnswer": "No.",
+  "falseAnswer1": "Yes.",
+  "falseAnswer2": "Whenever possible, but not required."
+},
+{
+  "id": 42,
+  "question": "What is another meaning for Props?",
+  "correctAnswer": "Properties",
+  "falseAnswer1": "Proposals",
+  "falseAnswer2": "Proper syntax"
+},
+{
+  "id": 43,
+  "question": "What is Enzyme?",
+  "correctAnswer": "Testing utility for React",
+  "falseAnswer1": "A pivotal part of rendering",
+  "falseAnswer2": "A biology thing"
+},
+{
+  "id": 44,
+  "question": "What is the React framework traditionally tested with?",
+  "correctAnswer": "Jest and Enzyme",
+  "falseAnswer1": "Mocha and Chai",
+  "falseAnswer2": "Lattes and Biscuits"
+},
+{
+  "id": 45,
+  "question": "What does beforeEach mean in a Jest and Enzyme test file?",
+  "correctAnswer": "A method to execute before each assertion",
+  "falseAnswer1": "A method to execute after each assertion",
+  "falseAnswer2": "A method to execute before the test is written"
+},
+{
+  "id": 44,
+  "question": "Does Jest use spies to test for DOM manipulation?",
+  "correctAnswer": "No",
+  "falseAnswer1": "Yes",
+  "falseAnswer2": "Only when using SASS"
+},
+{
+  "id": 47,
+  "question": "What tool allows you to see if a method has been called in testing?",
+  "correctAnswer": "toHaveBeenCalled()",
+  "falseAnswer1": "toHaveBeenInvoked()",
+  "falseAnswer2": "hasFired()"
+},
+{
+  "id": 48,
+  "question": "Should you invoke a function inside of a Render method in React?",
+  "correctAnswer": "Never.",
+  "falseAnswer1": "Everytime.",
+  "falseAnswer2": "Declared and invoked, everytime."
+},
+{
+  "id": 49,
+  "question": "How can you check if a component state has been altered in an app from the browser?",
+  "correctAnswer": "React Dev Tool",
+  "falseAnswer1": "console.log(this.state)",
+  "falseAnswer2": "Alert message"
+},
+{
+  "id": 50,
+  "question": "What file is required in your SRC directory to properly execute tests?",
+  "correctAnswer": "setupTests.js",
+  "falseAnswer1": "setupTest.js",
+  "falseAnswer2": "Setup-Tests.js"
+},
+{
+  "id": 51,
+  "question": "What method triggers a click event in React?",
+  "correctAnswer": "onClick()",
+  "falseAnswer1": "onBlur()",
+  "falseAnswer2": "keyUp()"
+},
+{
+  "id": 52,
+  "question": "Who developed Jest?",
+  "correctAnswer": "Facebook",
+  "falseAnswer1": "Google",
+  "falseAnswer2": "Turing"
+},
+{
+  "id": 53,
+  "question": "What JS operater takes three operands?",
+  "correctAnswer": "Ternary",
+  "falseAnswer1": "Binary",
+  "falseAnswer2": "Modulo"
+},
+{
+  "id": 54,
+  "question": "Is Enzyme an assertion library?",
+  "correctAnswer": "No, it is a testing utility",
+  "falseAnswer1": "Yes, it is an assertion library",
+  "falseAnswer2": "Not really either."
+},
+{
+  "id": 55,
+  "question": "What is a shallow render?",
+  "correctAnswer": "Shallow creates a bare-bones render of your component",
+  "falseAnswer1": "You should only use mount",
+  "falseAnswer2": "It is a testing suite for creating snapshots of HTML"
 }
 ]
 
-module.exports = FlashCardDataSet;
+module.exports = { FlashCardDataSet };
