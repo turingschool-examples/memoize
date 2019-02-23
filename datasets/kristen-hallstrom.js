@@ -1,5 +1,6 @@
 let handbook = [
   { 
+    "id": "1",
     "question": "HTML stands for",
     "answers": [
             "Hypertext Markup Language",
@@ -9,6 +10,7 @@ let handbook = [
     ] 
   },
   { 
+    "id": "2",
     "question": "People access websites through software called a",
     "answers": [
                 "Web browser",
@@ -18,6 +20,7 @@ let handbook = [
     ]
   },
   {
+    "id": "3",
     "question":  "Network request can be made with",
     "answers": [
                 "All of these",
@@ -27,6 +30,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "4",
     "question": "Network requests are made to a",
     "answers": [
               "Web server",
@@ -36,6 +40,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "5",
     "question": "Arguably the hardest thing about front-end dev is",
     "answers": [
               "Cross browser compatibility",
@@ -45,6 +50,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "6",
     "question": "Which of the following tags are non-semantic HTML",
     "answers": [
                 "<div> & <span>",
@@ -54,6 +60,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "7",
     "question": "Semantic HTML is",
     "answers": [
                 "All of these",
@@ -63,6 +70,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "8",
     "question": "CSS stands for",
     "answers": [
                 "Cascading Style Sheet",
@@ -72,6 +80,7 @@ let handbook = [
     ]
   },
   {
+    "id": "9",
     "question": "SCSS stands for",
     "answers": [
                 "Sassy Cascading Style Sheet",
@@ -81,6 +90,7 @@ let handbook = [
     ]
   },
   {
+    "id": "9",
     "question": "Which of the following are true about SCSS",
     "answers": [
                 "All of these",
@@ -90,6 +100,7 @@ let handbook = [
     ]
   },
   {
+    "id": "10",
     "question": "Which of these is the de facto language of the internet",
     "answers": [
                 "JavaScript",
@@ -99,6 +110,7 @@ let handbook = [
     ]
   },
   {
+    "id": "11",
     "question": "What is the other name for JavaScripts",
     "answers": [
                 "ECMAScript",
@@ -108,6 +120,7 @@ let handbook = [
     ]
   },
   {
+    "id": "12",
     "question": "Which of the following are true about jQuery",
     "answers": [
                 "All of these",
@@ -117,6 +130,7 @@ let handbook = [
     ]
   },
   {
+    "id": "13",
     "question": "What does DOM stand for",
     "answers": [
                 "Document Object Model",
@@ -126,6 +140,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "14",
     "question":  "React uses a special kind of DOM, called",
     "answers": [
                 "A Virtual DOM",
@@ -135,6 +150,7 @@ let handbook = [
     ]
   },
   {
+    "id": "15",
     "question": "What is OOP",
     "answers": [
                 "Object Oriented Programing",
@@ -143,7 +159,9 @@ let handbook = [
                 "Optional Object Protocol"
     ]
   },
-  { "question": "What does AJAX stand for",
+  { 
+    "id": "16",
+    "question": "What does AJAX stand for",
     "answers": [
                 "Asynchronous JavaScript And XML",
                 "Algorithm JavaScript And XML ",
@@ -152,6 +170,7 @@ let handbook = [
     ]
   },
   {
+    "id": "17",
     "question": "XML, though slightly outdated, stands for",
     "answers": [
                 "Extensible markup language",
@@ -161,6 +180,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "18",
     "question": "JS is executed",
     "answers": [
                 "Synchronously",
@@ -170,6 +190,7 @@ let handbook = [
     ]
   },
   {
+    "id": "19",
     "question": "A fetch request is executed",
     "answers": [
                 "Asynchronousl",
@@ -179,6 +200,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "20",
     "question": "A fetch replaces what",
     "answers": [
                 "XHR, Xml Http Requests",
@@ -188,6 +210,7 @@ let handbook = [
     ]
   },
   {
+    "id": "21",
     "question": "JS classes are similar to these in React",
     "answers": [
                 "Components",
@@ -197,6 +220,7 @@ let handbook = [
     ]
   },
   {
+    "id": "22",
     "question": "JS classes are similar to these in React",
     "answers": [
                 "Components",
@@ -206,6 +230,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "23",
     "question": "Classes and Components work best on SRP, which means",
     "answers": [
                 "Single Responsibility Principle",
@@ -215,6 +240,7 @@ let handbook = [
     ]
   },
   {
+    "id": "24",
     "question": "The three basic languages of the internet are",
     "answers": [
                 "HTML, CSS & JS",
@@ -224,6 +250,7 @@ let handbook = [
     ]
   },
   {
+    "id": "25",
     "question": "What is developer empathy",
     "answers": [
                 "Writing easy to follow code for other devs",
@@ -233,6 +260,7 @@ let handbook = [
     ]
   },
   { 
+    "id": "26",
     "question": "Who is a screen reader is used by",
     "answers": [
                 "All of these",
@@ -242,6 +270,7 @@ let handbook = [
     ]
   },
   {
+    "id": "27",
     "question": "What direction does data flow in React",
     "answers": [
                 "Down",
@@ -251,6 +280,7 @@ let handbook = [
     ]
   },
   {
+    "id": "28",
     "question": "React was created by",
     "answers": [
                 "Facebook",
@@ -260,12 +290,23 @@ let handbook = [
     ]
   },
   { 
+    "id": "29",
     "question": "What does every react page need at the top",
     "answers": [
                 "To import React",
                 "To import components from React ",
                 "To import React Dom",
                 "To import Data from React"
+    ]
+  },
+  { 
+    "id": "30",
+    "question": "What is the parent component in most React Apps",
+    "answers": [
+                "App",
+                "React",
+                "React Dom",
+                "Game"
     ]
   }
 ]
