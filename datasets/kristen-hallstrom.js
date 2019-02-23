@@ -3,10 +3,10 @@ let handbook = [
     "id": "1",
     "question": "HTML stands for",
     "answers": [
-            "Hypertext Markup Language",
-            "Hypertext Moxie Language",
-            "Hyperbolic Markup Language",
-            "Hypertext Markup Links"
+                "Hypertext Markup Language",
+                "Hypertext Moxie Language",
+                "Hyperbolic Markup Language",
+                "Hypertext Markup Links"
     ] 
   },
   { 
