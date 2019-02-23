@@ -23,6 +23,30 @@ const { javascripty } = require('./datasets/javascripty.js');
 const { jsfunQuestions } = require('./datasets/JSFunTrivia.js');
 const { cssFlashcardsData } = require('./datasets/joel-smith.js');
 
+
+const { flashcardData } = require('./datasets/whitney-burton-data.js');
+const { fundamentalsQuestions } = require('./datasets/tb-fundamentals-data.js');
+const { snapshot } = require('./datasets/libby-yeh.js');
+const { codeQuizQ_A } = require('./datasets/kristen-hallstrom.js');
+const { problems } = require('./datasets/jsProtoFunTime.js');
+const { interviewQuestions } = require('./datasets/interviewQuestions.js');
+const { ewQuestions } = require('./datasets/ew_dataset.js');
+const { aTypes } = require('./datasets/aType.js');
+const { adamData } = require('./datasets/adam.js');
+const { questionData } = require('./datasets/shannon-data.js');
+const { pvGitCommands } = require('./datasets/paul-gitcommands.js');
+const { hhTerminalCommands } = require('./datasets/terminal-commands.dataset.js');
+const { mod2information } = require('./datasets/eric-fitz2.js');
+const { flexboxData } = require('./datasets/flexbox.js');
+const { fishingVocab } = require('./datasets/js_fishing.js');
+const { gabeCards } = require('./datasets/gabe-dataset.js');
+const { arrayPrototypeMethods, stringPrototypeMethods, objectPrototypeMethods } = require('./datasets/elly-torres.js');
+const { arrayMethods, stringMethods } = require('./datasets/matt-foxwell.js');
+const { jQueryData } = require('./datasets/theoBean.js');
+const { FlashCardDataSet } = require('./datasets/tom-w-data.js');
+
+
+
 const datasets = [ 
   { name: 'youTubeVideos', data: youTubeVideos },
   { name: 'priceQuestions', data: priceQuestions },
@@ -40,7 +64,34 @@ const datasets = [
   { name: 'usefulJavascript', data: usefulJavascript },
   { name: 'javascripty', data: javascripty },
   { name: 'jsfunQuestions', data: jsfunQuestions },
-  { name: 'cssFlashcardsData', data: cssFlashcardsData }
+  { name: 'cssFlashcardsData', data: cssFlashcardsData },
+
+  { name: 'flashcardData', data: flashcardData },
+  { name: 'fundamentalsQuestions', data: fundamentalsQuestions },
+  { name: 'snapshot', data: snapshot },
+  { name: 'codeQuizQ_A', data: codeQuizQ_A },
+  { name: 'problems', data: problems },
+  { name: 'interviewQuestions', data: interviewQuestions },
+  { name: 'ewQuestions', data: ewQuestions },
+  { name: 'aTypes', data: aTypes },
+  { name: 'adamData', data: adamData },
+  { name: 'questionData', data: questionData },
+  { name: 'pvGitCommands', data: pvGitCommands },
+  { name: 'hhTerminalCommands', data: hhTerminalCommands },
+  { name: 'mod2information', data: mod2information },
+  { name: 'flexboxData', data: flexboxData },
+  { name: 'fishingVocab', data: fishingVocab },
+  { name: 'gabeCards', data: gabeCards },
+  { name: 'arrayPrototypeMethods', data: arrayPrototypeMethods },
+  { name: 'stringPrototypeMethods', data: stringPrototypeMethods },
+  { name: 'objectPrototypeMethods', data: objectPrototypeMethods },
+  { name: 'arrayMethods', data: arrayMethods },
+  { name: 'stringMethods', data: stringMethods },
+  { name: 'jQueryData', data: jQueryData },
+  { name: 'FlashCardDataSet', data: FlashCardDataSet }
+
+
+
 ];
 
 // EXPRESS CONFIGURATION
