@@ -183,3 +183,8 @@ const basicGitCommands = [
     "save": false
   }
 ]
+
+module.exports = {
+  terminalCommands,
+  basicGitCommands
+}
