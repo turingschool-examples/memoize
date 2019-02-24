@@ -121,8 +121,8 @@ const cards =[
 },
 {"id": 21,
   "type": "syntax",
-  "title": "",
-  "answer": "",
+  "title": "How would I write a reduce function if I wanted an array back?",
+  "answer": "array.reduce((acc,value => etc), [])",
 "complete": false
 },
 {"id": 22,
