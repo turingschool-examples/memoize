@@ -339,7 +339,7 @@ const proto-practice = [
       "id": "a729bd2a-36c6-11e9-b210-d663bd873d93",
       "category": "String Prototype",
       "img": "images/string-includes.png",
-      "correctAnswer": "match",
+      "correctAnswer": "includes",
       "answerList": [
         "includes",
         "slice",
