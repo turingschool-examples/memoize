@@ -178,7 +178,7 @@ const terminalAndGit = [
       "id": 26,
       "prompt": "Checkout a new branch",
       "possibleChoices": ["git -n branch", "git checkout -b", "git check branch"],
-      "correctAnswer": "git checkout -b'",
+      "correctAnswer": "git checkout -b",
       "save": false
     },
     {
