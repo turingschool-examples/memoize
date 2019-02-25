@@ -181,6 +181,7 @@ const rdCards = [
 }
 ];
 
+
 module.exports = {
   rdCards
 }
