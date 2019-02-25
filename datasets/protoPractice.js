@@ -1,4 +1,4 @@
-const proto-practice = [
+const protoPractice = [
     {
       "id": "a728f57a-36c6-11e9-b210-d663bd873d93",
       "category": "Array Prototype",
@@ -362,5 +362,5 @@ const proto-practice = [
   ]
 
 module.exports = {
-  proto-practice
+  protoPractice
 } 
