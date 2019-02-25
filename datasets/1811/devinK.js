@@ -275,6 +275,6 @@ const dkData = [
 "mdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries",
 "uid": "card-23"
 }
-]
+];
 
 module.exports = { dkData }
