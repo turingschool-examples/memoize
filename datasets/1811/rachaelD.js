@@ -1,4 +1,4 @@
-const cards =[
+const rdCards = [
 {"id": 1,
 "type": "return",
 "title": "What does a Map return?",
@@ -179,4 +179,8 @@ const cards =[
   "answer": "Splice",
 "complete": false
 }
-]
+];
+
+module.exports = {
+  rdCards
+}
