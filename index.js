@@ -54,7 +54,7 @@ const { dkData } = require('./datasets/1811/devinK.js');
 const { duyData } = require('./datasets/1811/duyTV.js');
 const { EMpracticeQuestions } = require('./datasets/1811/edgarM.js');
 const { isData } = require('./datasets/1811/isaacS.js');
-const { JAprototypes } = require('./datasets/1811/jakeA.js');
+const { JAprototypes, JAFlashCards } = require('./datasets/1811/jakeA.js');
 const { JHprotoPractice } = require('./datasets/1811/jessicaH.js');
 const { pioneersData } = require('./datasets/1811/joshL.js');
 const { jpQuestions } = require('./datasets/1811/justinP.js');
@@ -126,6 +126,7 @@ const datasets = [
   { name: 'EMpracticeQuestions', data: EMpracticeQuestions },
   { name: 'isData', data: isData },
   { name: 'JAprototypes', data: JAprototypes },
+  { name: 'JAFlashCards', data: JAFlashCards },
   { name: 'JHprotoPractice', data: JHprotoPractice },
   { name: 'pioneersData', data: pioneersData },
   { name: 'jpQuestions', data: jpQuestions },

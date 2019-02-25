@@ -90,7 +90,7 @@ const JAprototypes = [
 ]
 
 
-const flashCards = [
+const JAFlashCards = [
   { "problem": "rearrange this data so that it's in alphabetical order?",
     "snippet": "const months = ['March', 'Jan', 'Feb', 'Dec'];",
     "dataType": "array",
@@ -244,5 +244,6 @@ const flashCards = [
 ]
 
 module.exports = {
-  JAprototypes
+  JAprototypes,
+  JAFlashCards
 }
