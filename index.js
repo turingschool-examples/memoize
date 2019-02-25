@@ -48,6 +48,29 @@ const { FlashCardDataSet } = require('./datasets/tom-w-data.js');
 
 // 1811 Datasets
 
+const { ANdata } = require('./datasets/1811/adamN.js');
+const { dcFlashCards } = require('./datasets/1811/davidC.js');
+const { dkData } = require('./datasets/1811/devinK.js');
+const { duyData } = require('./datasets/1811/duyTV.js');
+const { EMpracticeQuestions } = require('./datasets/1811/edgarM.js');
+const { isData } = require('./datasets/1811/isaacS.js');
+const { JAprototypes } = require('./datasets/1811/jakeA.js');
+const { JHprotoPractice } = require('./datasets/1811/jessicaH.js');
+const { pioneersData } = require('./datasets/1811/joshL.js');
+const { jpQuestions } = require('./datasets/1811/justinP.js');
+const { KMstringAndArrayPrototypeMethods } = require('./datasets/1811/kimM.js');
+const { handbook } = require('./datasets/1811/kristenH.js');
+const { lizTerminalAndGit } = require('./datasets/1811/lizA.js');
+const { MFcodeQuestions } = require('./datasets/1811/masonF.js');
+const { mkCards } = require('./datasets/1811/mikeK.js');
+const { nirajData } = require('./datasets/1811/niraj.js');
+const { rdCards } = require('./datasets/1811/rachaelD.js');
+const { roTestCards } = require('./datasets/1811/raechelO.js');
+const { SHmethods } = require('./datasets/1811/sallyH.js');
+const { TSquizzes } = require('./datasets/1811/taylorS.js');
+const { TMQuestionDataset } = require('./datasets/1811/timM.js');
+const { TWFlashCardDataSet } = require('./datasets/1811/tomW.js');
+
 
 
 
@@ -93,9 +116,31 @@ const datasets = [
   { name: 'arrayMethods', data: arrayMethods },
   { name: 'stringMethods', data: stringMethods },
   { name: 'jQueryData', data: jQueryData },
-  { name: 'FlashCardDataSet', data: FlashCardDataSet }
+  { name: 'FlashCardDataSet', data: FlashCardDataSet },
 
-
+  // 1811
+  { name: 'ANdata', data: ANdata },
+  { name: 'dcFlashCards', data: dcFlashCards },
+  { name: 'dkData', dkData },
+  { name: 'duyData', data: duyData },
+  { name: 'EMpracticeQuestions', data: EMpracticeQuestions },
+  { name: 'isData', data: isData },
+  { name: 'JAprototypes', data: JAprototypes },
+  { name: 'JHprotoPractice', data: JHprotoPractice },
+  { name: 'pioneersData', data: pioneersData },
+  { name: 'jpQuestions', data: jpQuestions },
+  { name: 'KMstringAndArrayPrototypeMethods', data: KMstringAndArrayPrototypeMethods },
+  { name: 'handbook', data: handbook },
+  { name: 'lizTerminalAndGit', data: lizTerminalAndGit },
+  { name: 'MFcodeQuestions', data: MFcodeQuestions },
+  { name: 'mkCards', data: mkCards },
+  { name: 'nirajData', data: nirajData },
+  { name: 'rdCards', data: rdCards },
+  { name: 'roTestCards', data: roTestCards },
+  { name: 'SHmethods', data: SHmethods },
+  { name: 'TSquizzes', data: TSquizzes },
+  { name: 'TMQuestionDataset', data: TMQuestionDataset },
+  { name: 'TWFlashCardDataSet', data: TWFlashCardDataSet }
 
 ];
 
