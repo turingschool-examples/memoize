@@ -23,7 +23,7 @@ const prototypes = [
 				{
 				"question": "What type of prototype method is Array.prototype.reverse()?",
 				"options":["Accessor method", "Mutator method", "Both", "None of these"],
-				"answer" : "Mutator",
+				"answer" : "Mutator method",
 				"points" : 10,
 				"key": 4
 				},
@@ -65,7 +65,7 @@ const prototypes = [
 				{
 				"question": "What type of method is Array.prototype.reduce()?",
 				"options":["Mutator", "Accessor", "Iterator", "None of these"],
-				"answer" : "Iterator",
+				"answer" : "Mutator",
 				"points" : 10,
 				"key": 10
 				} 
@@ -105,7 +105,7 @@ const scope = [
 				{
 				"question": "What does Reference error mean?",
 				"options":["Variable not declared", "Variable declared", "Both", "None of these"],
-				"answer" : "Both",
+				"answer" : "Variable not declared",
 				"points" : 10,
 				"key": 5
 				},
